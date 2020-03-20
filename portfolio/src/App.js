@@ -2,13 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 
 function App() {
   return(
   <Router>
   <div>
-    {/* <Navbar/> */}
+    
     <Switch>
       <Route exact path="/">
         <HomePage />
@@ -16,9 +18,12 @@ function App() {
       <Route exact path="/PortfolioPage">
         <PortfolioPage />
       </Route>
-      {/* <Route exact path="/PostPage">
-        <PostPage />
-      </Route> */}
+      <Route exact path="/AboutPage">
+        <AboutPage />
+      </Route>
+      <Route exact path="/ContactPage">
+        <ContactPage />
+      </Route>
     </Switch>
   </div>
 </Router>

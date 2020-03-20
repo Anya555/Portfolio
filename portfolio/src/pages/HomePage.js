@@ -21,10 +21,11 @@ function Home() {
            
             <br></br><br></br><br></br>
 
-            <Link to="./PortfolioPage" style={{ textDecoration: 'none' }}> 
+            <Link to="./AboutPage" style={{ textDecoration: 'none' }}> 
             <div className="btn">
                 <Pulse>
-                    <Button variant="secondary">Get to know what I do <div className="arrow"><FaArrowRight/></div></Button>
+                <Button variant="secondary">Get to know what I do <div className="arrow"><FaArrowRight/></div>
+                </Button>
                 </Pulse>
             </div>
             </Link>
