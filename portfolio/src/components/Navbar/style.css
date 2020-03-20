@@ -1,0 +1,19 @@
+.nav-link {
+    color: rgb(158, 23, 23) !important;
+    font-family:  'Gloria Hallelujah', cursive;
+    position:right;
+    font-size: x-large;
+    margin-left:30px
+}
+
+nav .portfolio{
+    color: rgb(70, 41, 59) !important
+}
+
+span{
+    color: rgb(70, 41, 59)
+}
+
+.f{
+    color:rgb(158, 23, 23)
+}
