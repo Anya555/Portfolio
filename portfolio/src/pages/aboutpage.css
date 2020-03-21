@@ -2,7 +2,7 @@ h4{
     text-align: center;
     color: white;
     font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    background-color: rgb(15, 95, 109);
+    background-color: rgb(138, 146, 148);
 }
 
 .img{
@@ -21,15 +21,16 @@ p{
 .coder{
   font-size: large;
   font-weight: bold;
-  color:rgb(158, 23, 23);
-  font-size:x-large;
+  color:  rgb(187, 137, 44);
+  font-size:large;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 .bracket{
   font-size: xx-large;
 }
 
-.code{
+.code, .mern{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +47,7 @@ p{
 }
 
 .formula{
-  color: rgb(158, 23, 23);
+  color: rgb(70, 41, 59);
   font-weight: bolder;
 }
 
@@ -69,13 +70,49 @@ h3{
 
 .label{
 text-align: left;
-margin-left: 5px;
-color:white;
+margin-left: 10px;
+color:rgb(97, 63, 84);;
 font-weight: bold;
-font-family: Raleway;
+font-family: 'Titillium Web', sans-serif;
+font-size: larger;
 }
 
 .progress{
   height: 25px;
 }
 
+.mongo{
+  font-size: xx-large;
+  color:green;
+  padding-right: 10px;
+}
+
+.react{
+  font-size: xx-large;
+  color: #4AA69F;
+  padding-right: 10px;
+}
+
+.node{
+  font-size: xx-large;
+  color: rgb(82, 166, 74);
+  padding-right: 10px;
+}
+
+.express{
+  font-size: larger;
+  color:rgb(70, 41, 59);
+  padding-right: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+.arrow{
+  color:rgb(70, 41, 59);
+}
+
+.h1{
+  color:rgb(158, 23, 23);
+}
