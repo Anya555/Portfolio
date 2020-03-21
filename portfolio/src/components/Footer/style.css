@@ -2,14 +2,28 @@ footer {
   position: sticky;
   width:100%;
   bottom: 0; 
-  background-color: rgb(155, 148, 148);
+  background-color: #1b242f;
  
 }
 
 .footer {
   bottom: 0;
   padding: 10px;
-  color: rgb(97, 63, 84);
+  color:rgb(168, 34, 101);
   text-align: center;
+  width:100%;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  
 }
 
+.foot{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.copy{
+  color:#4AA69F;
+  font-size: smaller;
+}

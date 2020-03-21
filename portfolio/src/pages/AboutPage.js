@@ -17,13 +17,13 @@ import "./aboutpage.css";
 import { FaCoffee } from 'react-icons/fa';
 import { FaAngleLeft } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
-import { FaKeyboard } from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
 import { FaLongArrowAltDown } from 'react-icons/fa'
 
 
+// keyframes
 const SlideInLeft = styled.div`animation: 1s ${keyframes`${slideInLeft}`} `;
 const SlideInRight = styled.div`animation: 1s ${keyframes`${slideInRight}`} `;
 
@@ -42,14 +42,14 @@ function About() {
                         <hr></hr>
                     </div>
                     <div className="col-4">
-                        <h4>ABOUT ME</h4>
+                        <h4>read<span className="text-black">m</span>e</h4>
                     </div>
                     <div className="col-4">
                         <hr></hr>
                     </div>
                 </div>
 
-                <br></br><br></br>
+                <br></br>
 
                 <div className="row">
 
@@ -66,7 +66,7 @@ function About() {
                         I focus on learning new technologies and writing clean efficient code.
                         My Formula for Success is:
                    <br></br><br></br>
-                                <u className="success">Success</u> = <span className="formula">Coffee</span> <FaCoffee className="icon" /> + <span className="formula">Persistence</span> <FaKeyboard className="icon" />
+                               <u className="success">Success</u> = <span className="formula">Coffee</span> <FaCoffee className="icon" /> + <span className="formula">Persistence</span> <img src="/images/persistence.jpg" height="45px" width="45px"/>
                             </p>
                         </SlideInLeft>
                     </div>
@@ -97,8 +97,8 @@ function About() {
                 </div>
 
                 <div className="row">
-                    <div className="col-6 offset-sm-3">
-                       <br></br>
+                    <div className="col-md-6 offset-sm-3">
+                       
                         <h1 className="h1">My skills<FaLongArrowAltDown className="arrow"/> </h1>
                         <br></br>
 

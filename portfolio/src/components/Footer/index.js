@@ -1,20 +1,23 @@
 import React from "react";
 import "./style.css";
-import ScrollUpButton from "react-scroll-up-button"; 
+import ScrollUpButton from "react-scroll-up-button";
 
 function Footer() {
   return (
-    <div>
-      
-<footer className="page-footer">
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12 foot">
+          <footer className="page-footer">
 
-<ScrollUpButton className="scroll"/>
-    
+            <ScrollUpButton className="scroll"  style={{ backgroundColor: "#660033" }} />
 
-  <div className="footer">
-    © Copyright Anna Panas
-  </div>
-</footer>
+            <div className="footer">
+            Anna Panas <span className="copy">©2020</span> 
+          </div>
+
+          </footer>
+        </div>
+      </div>
     </div>
   );
 }

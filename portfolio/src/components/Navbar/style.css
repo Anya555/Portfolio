@@ -1,21 +1,31 @@
 .nav-link {
-    color: rgb(158, 23, 23) !important;
+    color: rgb(110, 14, 62) !important;
     font-family:  'Gloria Hallelujah', cursive;
     position:right;
     font-size: x-large;
     margin-left:30px;
 }
 
+.nav1{
+    
+    /* border-bottom: 10px solid #1b242f; */
+}
 
 span{
     color: rgb(70, 41, 59);
 }
 
 .f{
-    color:rgb(158, 23, 23);
+    color:rgb(110, 14, 62);
 }
+
 
 .portfolio{
     color: rgb(70, 41, 59);
 }
 
+.nav2{
+    background-color: #1b242f;
+    border-bottom: 3px solid #4AA69F;
+    
+}
