@@ -1,0 +1,15 @@
+footer {
+  position: sticky;
+  width:100%;
+  bottom: 0; 
+  background-color: rgb(155, 148, 148);
+ 
+}
+
+.footer {
+  bottom: 0;
+  padding: 10px;
+  color: rgb(97, 63, 84);
+  text-align: center;
+}
+

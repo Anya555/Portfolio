@@ -3,6 +3,7 @@ import React from "react";
 // react-bootstrap
 import Navbar from "../components/Navbar/index";
 import Image from 'react-bootstrap/Image';
+import Footer from '../components/Footer/index'
 
 // react- css animations
 
@@ -150,7 +151,8 @@ function About() {
                     </div>
                 </div>
             </div>
-
+            <br></br><br></br><br></br>
+<Footer/>
 
         </>
     );
