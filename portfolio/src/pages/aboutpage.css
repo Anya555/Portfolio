@@ -1,0 +1,81 @@
+h4{
+    text-align: center;
+    color: white;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    background-color: rgb(15, 95, 109);
+}
+
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #666666;
+  font-size: larger;
+}
+
+.coder{
+  font-size: large;
+  font-weight: bold;
+  color:rgb(158, 23, 23);
+  font-size:x-large;
+}
+
+.bracket{
+  font-size: xx-large;
+}
+
+.code{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success{
+  color: rgb(15, 95, 109);
+  font-weight: bolder;
+}
+
+.icon{
+  color:rgb(15, 95, 109);
+ 
+}
+
+.formula{
+  color: rgb(158, 23, 23);
+  font-weight: bolder;
+}
+
+.stack{
+  color:rgb(70, 41, 59);
+  font-weight: bold;
+}
+
+h3{
+  text-align: center;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-weight: bold;
+  color:rgb(70, 41, 59);
+}
+
+.progress-bar {  
+  background-color: #4AA69F;
+
+}
+
+.label{
+text-align: left;
+margin-left: 5px;
+color:white;
+font-weight: bold;
+font-family: Raleway;
+}
+
+.progress{
+  height: 25px;
+}
+

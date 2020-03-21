@@ -5,7 +5,7 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-white">
+    <nav className="navbar navbar-expand-lg">
 
 
       <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -38,9 +38,9 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/PortfolioPage"
-              className={window.location.pathname === "/PortfolioPage" ? "nav-link portfolio" : "nav-link"}
+              className={window.location.pathname === "/PortfolioPage" ? "nav-link" : "nav-link"}
             >
-              Port<span className="f">f</span>olio
+              <span className="portfolio">Port</span><span className="f">f</span><span  className="portfolio">olio</span>
             </Link>
           </li>
           <li className="nav-item">

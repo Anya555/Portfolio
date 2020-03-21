@@ -12,12 +12,13 @@ const Pulse = styled.div`animation: 2s ${keyframes`${pulse}`} infinite`;
 function Home() {
     return (
         <>
+    
         <div className="container-fluid main">
            
             <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
             <h1 className="text-center">Hello, I'm Anna</h1>
-            <h1 className="text-center">I'm a <span>full-stack</span> web developer</h1>
+            <h1 className="text-center">I'm a <span className="stack">full-stack</span> web developer</h1>
            
             <br></br><br></br><br></br>
 
