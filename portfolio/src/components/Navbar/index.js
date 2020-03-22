@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { IoIosMenu } from 'react-icons/io';
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+
 function Navbar() {
   return (
     <>
@@ -12,7 +13,7 @@ function Navbar() {
       <button className="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+        <span className="menu"><IoIosMenu/></span>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
