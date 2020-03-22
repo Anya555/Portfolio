@@ -3,7 +3,10 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import { FaGlasses } from 'react-icons/fa';
 import './portfoliopage.css';
+import { slideInUp} from "react-animations";
+import styled, { keyframes } from "styled-components";
 
+const RollIn = styled.div`animation: 1s ${keyframes`${slideInUp}`} `;
 
 class Portfolio extends Component {
 
@@ -13,21 +16,21 @@ class Portfolio extends Component {
             data: [
                 {
                     "id": 1,
-                    "image": "/images/me.jpg",
+                    "image": "/images/",
                     "name": "StarXed",
                     "description": "Zodiac match dating app",
                     "link": "https://github.com/brer4449/groupproject1"
                 },
                 {
                     "id": 2,
-                    "image": "/images/me.jpg",
+                    "image": "/images/",
                     "name": "Shop desk",
                     "description": "Ecommerce platform",
                     "link": "https://github.com/brer4449/groupproject1"
                 },
                 {
                     "id": 3,
-                    "image": "/images/me.jpg",
+                    "image": "/images/",
                     "name": "BidBot",
                     "description": "Online auction",
                     "link": "https://github.com/brer4449/groupproject1"
@@ -47,6 +50,7 @@ class Portfolio extends Component {
 
                 <>
                     <div className="col-md-4 col-sm-12">
+                        <RollIn>
                         <div className="card" key={id}>
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" />
@@ -58,7 +62,7 @@ class Portfolio extends Component {
                                 <a href={link} >See project <FaGlasses className="glasses"/></a>
                             </div>
                         </div>
-
+                        </RollIn>
                         <br></br>
                     </div>
                 </>
