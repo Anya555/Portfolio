@@ -1,24 +1,28 @@
 .portfolio-pic{
     height: 200px;
     width:100%;
-    padding: 10px 10px 10px 10px;
+    padding-bottom: 10px 
 }
+
 
 h5{
     padding-left:10px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
+    text-align: center;
+    color: rgb(71, 7, 77)
 }
+
+
 
 .description{
-    text-align: left;
+    text-align: center;
     padding-left:10px;
     font-family: 'Titillium Web', sans-serif;
+    color:  #1b242f;
 }
 
-.card{
-    height: 350px
-}
+
 
 .glasses{
     padding-left: 10px;
@@ -44,6 +48,3 @@ a:hover
      cursor:pointer;  
 }
 
-/* a:hover {
-    background-color:
-  } */

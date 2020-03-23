@@ -53,7 +53,7 @@ function About() {
 
                 <div className="row">
 
-                    <div className="col-4 sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <br></br>
                         <SlideInLeft>
                             <span className="code"><FaAngleLeft className="bracket" />
@@ -71,15 +71,15 @@ function About() {
                         </SlideInLeft>
                     </div>
 
-                    <div className="col-4 sm-12 img">
+                    <div className="col-md-4 col-sm-12 img">
                         <Image src="/images/pic.jpg" roundedCircle width="230px" height="250px" />
                     </div>
 
-                    <div className="col-4 sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <SlideInRight>
                             <br></br>
                             <span className="code"><FaAngleLeft className="bracket" />
-                                <span className="coder">I'm a work in progress</span>
+                                <span className="coder">background</span>
                                 <FaAngleRight className="bracket" /></span>
                             <br></br>
 
