@@ -14,27 +14,28 @@ class Portfolio extends Component {
         super(props)
         this.state = {
             data: [
+               
                 {
                     "id": 1,
-                    "image": "/images/starxed.png",
-                    "name": "StarXed",
-                    "description": "Dating app, that let's you find your match in your area, based on zodiac sign compatibility and read daily horoscope",
-                    "link": "https://brer4449.github.io/groupproject1/"
-                },
-                {
-                    "id": 2,
                     "image": "/images/shopdesk.png",
                     "name": "Shop desk",
                     "description": "Shop desk let's you sell products online, keeping your unique brand with no web development experience",
                     "link": "https://guarded-brook-11312.herokuapp.com/"
                 },
                 {
-                    "id": 3,
-                    "image": "/images/bidbot.png",
+                    "id": 2,
+                    "image": "/images/bid.png",
                     "name": "BidBot",
-                    "description": "Online auction website, where you can bid on items in different categories, as well as post your own products",
+                    "description": "Online auction website, where you can bid on items in different categories, as well as post your own",
                     "link": "https://github.com/vormc2005/Project3"
-                }
+                },
+                {
+                    "id": 3,
+                    "image": "/images/starxed.png",
+                    "name": "StarXed",
+                    "description": "Dating app, that let's you find your match in your area, based on zodiac sign compatibility and read daily horoscope",
+                    "link": "https://brer4449.github.io/groupproject1/"
+                },
             ]
 
         }
@@ -49,13 +50,13 @@ class Portfolio extends Component {
             return (
 
                 <>
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-md-6 col-sm-12">
                         <SlideInUp>
                         <div className="card" key={id}>
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" />
                             </div>
-                            
+                            <br></br>
                             <div className="content">
                                 <h5> {name}</h5>
                                 <p className="description"> {description} </p>
@@ -82,7 +83,7 @@ class Portfolio extends Component {
                 <Navbar />
                 <br></br>
 
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-12">
                           

@@ -21,23 +21,24 @@ h1{
   color: rgb(70, 41, 59);
 }
 
+.h6{
+	color: rgb(70, 41, 59);
+}
+
 .full{
-  color:rgb(158, 23, 23);
+  color:rgb(102, 38, 38);
 }
 
 
-.btn{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 20px 12px 20px;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: large;
-}
 
 .arrow{
 	padding-left: 20px;
 	color: rgb(158, 23, 23);
 	
+}
+
+.span{
+	padding-left: 10px;
+	font-size: larger;
 }
 

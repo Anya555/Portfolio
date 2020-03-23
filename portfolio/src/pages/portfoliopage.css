@@ -1,8 +1,10 @@
 .portfolio-pic{
-    height: 200px;
+    height: 250px;
     width:100%;
-    padding-bottom: 10px 
+    padding-bottom: 10px;
+    border-color: black;
 }
+
 
 
 h5{
@@ -10,7 +12,8 @@ h5{
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
     text-align: center;
-    color: rgb(71, 7, 77)
+    color: rgb(71, 7, 77);
+    text-align: left;
 }
 
 
@@ -20,6 +23,7 @@ h5{
     padding-left:10px;
     font-family: 'Titillium Web', sans-serif;
     color:  #1b242f;
+    text-align: left;
 }
 
 
@@ -43,8 +47,10 @@ a {
 
 a:hover 
 {
-    
      text-decoration:none; 
      cursor:pointer;  
 }
 
+.card{
+    border-color: white;
+}

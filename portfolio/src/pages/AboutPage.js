@@ -66,7 +66,7 @@ function About() {
                         I focus on learning new technologies and writing clean efficient code.
                         My Formula for Success is:
                    <br></br><br></br>
-                               <u className="success">Success</u> = <span className="formula">Coffee</span> <FaCoffee className="icon" /> + <span className="formula">Persistence</span> <img src="/images/persistence.jpg" height="45px" width="45px"/>
+                                <u className="success">Success</u> = <span className="formula">Coffee</span> <FaCoffee className="icon" /> + <span className="formula">Persistence</span> <img src="/images/persistence.jpg" height="45px" width="45px" />
                             </p>
                         </SlideInLeft>
                     </div>
@@ -84,37 +84,37 @@ function About() {
                             <br></br>
 
                             <p>Recent graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University, where I learned how to develop end-to-end web applications using modern coding tools and libraries.</p>
+                          <br></br>
+                            <div className="mern">
+                                <DiMongodb className="mongo" />
+                                <span className="express"> express </span>
+                                <span> <FaReact className="react" /> </span>
+                                <span>   <FaNodeJs className="node" /> </span>
+                            </div>
 
-                                <div className="mern">
-                                <DiMongodb className="mongo"/>
-                                <span className="express"> express </span>  
-                                <span> <FaReact className="react"/> </span>
-                                <span>   <FaNodeJs className="node"/> </span>
-                                </div>
-                                
                         </SlideInRight>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-md-6 offset-sm-3">
-                       
-                        <h1 className="h1">My skills<FaLongArrowAltDown className="arrow"/> </h1>
+
+                        <h1 className="h1">My skills<FaLongArrowAltDown className="arrow" /> </h1>
                         <br></br>
 
                         {/* Skills chart */}
-                     
+
                         <div className="skills-chart">
                             <div className="progress">
                                 <div className="progress-bar" style={{ width: "90%" }} ><span className="label">HTML</span></div>
                             </div>
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "80%" }} ><span className="label">CSS</span></div>
+                                <div className="progress-bar" style={{ width: "70%" }} ><span className="label">CSS</span></div>
                             </div>
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "70%" }} ><span className="label">JS</span></div>
+                                <div className="progress-bar" style={{ width: "60%" }} ><span className="label">JS</span></div>
                             </div>
                             <br></br>
                             <div className="progress">
@@ -146,13 +146,13 @@ function About() {
                             </div>
                             <br></br>
                         </div>
-                        
+
 
                     </div>
                 </div>
             </div>
             <br></br><br></br><br></br>
-<Footer/>
+            <Footer />
 
         </>
     );

@@ -60,6 +60,7 @@ function Navbar() {
       
     </nav>
     <nav className="navbar navbar-expand-lg nav2"></nav>
+                          
     </>
   );
 }

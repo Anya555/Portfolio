@@ -1,8 +1,7 @@
 h4{
     text-align: center;
-    color:  rgb(168, 34, 101);
+    color:  rgb(105, 62, 89);;
     font-family: 'Titillium Web', sans-serif;
-    /* background-color: rgb(179, 181, 182); */
     font-weight: bolder;
 }
 
@@ -16,14 +15,14 @@ h4{
 p{
   font-family: 'Titillium Web', sans-serif;
   text-align: center;
-  color: #666666;
+  color: #1b242f;
   font-size: larger;
 }
 
 .coder{
   font-size: large;
   font-weight: bold;
-  color:  rgb(187, 137, 44);
+  color:  rgb(68, 20, 18);
   font-size:large;
  font-family: 'Titillium Web', sans-serif;
 }
@@ -117,5 +116,5 @@ h1{
 }
 
 .h1{
-  color:rgb(158, 23, 23);
+  color:rgb(105, 62, 89);
 }
