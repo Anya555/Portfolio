@@ -6,10 +6,6 @@
     margin-left:30px;
 }
 
-.nav1{
-    
-    /* border-bottom: 10px solid #1b242f; */
-}
 
 span{
     color: rgb(70, 41, 59);
@@ -38,6 +34,16 @@ span{
     color:#4AA69F
 }
 
+.linkedin{
+    font-size: xx-large;
+    color: #4AA69F;
+    padding-right:10px
+}
+
+.github{
+    font-size: x-large;
+    color: black;
+}
 
  @media only screen and (max-width: 600px) {
     .nav-link{
