@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import Navbar from "../components/Navbar/index";
+import Footer from "../components/Footer/index"
 import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+// import MessageBox from 'react-message-box'
+import "./contactpage.css";
 
- 
+
 
 class ContactForm extends Component {
     state = {
@@ -29,8 +32,12 @@ class ContactForm extends Component {
             templateParams,
             'user_tImdPK6EDlPQOjs1QcpHq'
         )
-        this.resetForm()
+        this.resetForm();
+       
+       
     }
+
+
 
     resetForm() {
         this.setState({
@@ -40,6 +47,7 @@ class ContactForm extends Component {
             message: '',
         })
     }
+
     handleChange = (param, e) => {
         this.setState({ [param]: e.target.value })
     }
@@ -49,67 +57,77 @@ class ContactForm extends Component {
         return (
             <>
                 <Navbar />
-                <br></br><br></br>
+                <br></br>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4 offset-sm-3 col-sm-12">
-                            <Form onSubmit={this.handleSubmit.bind(this)}>
+                      
+                            <div className="col-md-6 offset-sm-3 col-sm-12">
+                            <h4 className="getintouch">Please fill out a form to get in touch with me</h4>
+                            <div className="card">
+                                <Form onSubmit={this.handleSubmit.bind(this)} className="form">
+                    
+                                
+                                <br></br>
+                              
+                                    <Form.Group controlId="formBasicEmail" className="contact">
+                                        <Form.Control
+                                            type="email"
+                                            name="email"
+                                            value={this.state.email}
+                                            className="text-primary"
+                                            onChange={this.handleChange.bind(this, 'email')}
+                                            placeholder="Enter email"
+                                        />
+                                    </Form.Group>
 
-                                <Form.Group controlId="formBasicEmail">
-                                    <Form.Label className="text-muted">Email address</Form.Label>
-                                    <Form.Control
-                                        type="email"
-                                        name="email"
-                                        value={this.state.email}
-                                        className="text-primary"
-                                        onChange={this.handleChange.bind(this, 'email')}
-                                        placeholder="Enter email"
-                                    />
-                                </Form.Group>
+                                    <Form.Group controlId="formBasicName"  className="contact">
+                                        <Form.Control
+                                            type="text"
+                                            name="name"
+                                            value={this.state.name}
+                                            className="text-primary"
+                                            onChange={this.handleChange.bind(this, 'name')}
+                                            placeholder="Name"
+                                        />
+                                    </Form.Group>
 
-                                <Form.Group controlId="formBasicName">
-                                    <Form.Label className="text-muted">Name</Form.Label>
-                                    <Form.Control
-                                        type="text"
-                                        name="name"
-                                        value={this.state.name}
-                                        className="text-primary"
-                                        onChange={this.handleChange.bind(this, 'name')}
-                                        placeholder="Name"
-                                    />
-                                </Form.Group>
+                                    <Form.Group controlId="formBasicSubject"  className="contact">
+                                        <Form.Control
+                                            type="text"
+                                            name="subject"
+                                            className="text-primary"
+                                            value={this.state.subject}
+                                            onChange={this.handleChange.bind(this, 'subject')}
+                                            placeholder="Subject"
+                                        />
+                                    </Form.Group>
 
-                                <Form.Group controlId="formBasicSubject">
-                                    <Form.Label className="text-muted">Subject</Form.Label>
-                                    <Form.Control
-                                        type="text"
-                                        name="subject"
-                                        className="text-primary"
-                                        value={this.state.subject}
-                                        onChange={this.handleChange.bind(this, 'subject')}
-                                        placeholder="Subject"
-                                    />
-                                </Form.Group>
+                                    <Form.Group controlId="exampleForm.ControlTextarea1"  className="contact">
+                                        <Form.Control as="textarea" rows="6"
+                                            placeholder="Message..."
+                                            className="text-primary"
+                                            value={this.state.message}
+                                            onChange={this.handleChange.bind(this, 'message')}
+                                        />
+                                    </Form.Group>
 
-                                <Form.Group controlId="formBasicMessage">
-                                    <Form.Label className="text-muted">Message</Form.Label>
-                                    <Form.Control
-                                        type="textarea"
-                                        name="message"
-                                        className="text-primary"
-                                        value={this.state.message}
-                                        onChange={this.handleChange.bind(this, 'message')}
-                                    />
-                                </Form.Group>
-
-                                <Button variant="primary" type="submit">
-                                    Submit
+                                    <div>
+                                    <Button variant="primary" type="submit" className="submit" data-dismiss="alert">
+                                        Get in touch
                                 </Button>
-
-                            </Form>
+                                
+                                </div>
+                                <br></br><br></br>
+                               
+                                </Form>
+                               
+                            </div>
                         </div>
+
                     </div>
                 </div>
+                <br></br>
+                <Footer />
             </>
         );
     }
