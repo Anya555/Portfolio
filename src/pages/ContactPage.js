@@ -3,9 +3,10 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index"
 import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import Button  from 'react-bootstrap/Button';
 // import MessageBox from 'react-message-box'
 import "./contactpage.css";
+import swal from 'sweetalert';
 
 
 
@@ -33,8 +34,12 @@ class ContactForm extends Component {
             'user_tImdPK6EDlPQOjs1QcpHq'
         )
         this.resetForm();
-       
-       
+        swal({
+            title: "Thank You!",
+            text: "Your message has been sent!",
+            icon: "success",
+            button: "Ok",
+          });
     }
 
 
@@ -46,6 +51,7 @@ class ContactForm extends Component {
             subject: '',
             message: '',
         })
+
     }
 
     handleChange = (param, e) => {
@@ -112,10 +118,10 @@ class ContactForm extends Component {
                                     </Form.Group>
 
                                     <div>
-                                    <Button variant="primary" type="submit" className="submit" data-dismiss="alert">
+                                    <Button variant="primary" type="submit" className="submit">
                                         Get in touch
                                 </Button>
-                                
+                               
                                 </div>
                                 <br></br><br></br>
                                
