@@ -14,13 +14,12 @@ import "./aboutpage.css";
 
 // react-icons
 
-import { FaCoffee } from 'react-icons/fa';
 import { FaAngleLeft } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
-import { FaLongArrowAltDown } from 'react-icons/fa'
+import { FaLongArrowAltDown } from 'react-icons/fa';
 
 
 // keyframes
@@ -62,11 +61,10 @@ function About() {
 
                             <br></br>
 
-                            <p> I'm a <span className="stack">full-stack</span> web developer, passionate about creating dynamic web applications.
-                        I focus on learning new technologies and writing clean efficient code.
-                        My Formula for Success is:
-                   <br></br><br></br>
-                                <u className="success">Success</u> = <span className="formula">Coffee</span> <FaCoffee className="icon" /> + <span className="formula">Persistence</span> <img src="/images/persistence.jpg" height="45px" width="45px" />
+                            <p> I'm a <span className="stack">full-stack</span> web developer, passionate about creating dynamic web applications. I enjoy making responsive design, focusing on clean and intuitive UI. Most of my time is dedicated to  learning new technologies and writing clean efficient code.  I strongly believe that any success is all about persistence.
+                 
+
+
                             </p>
                         </SlideInLeft>
                     </div>
@@ -83,8 +81,8 @@ function About() {
                                 <FaAngleRight className="bracket" /></span>
                             <br></br>
 
-                            <p>Recent graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University, where I learned how to develop end-to-end web applications using modern coding tools and libraries.</p>
-                          <br></br>
+                            <p>Recent graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University. During the program I learned how to develop end-to-end web applications using modern coding tools and libraries, as well as delivering high quality code. </p>
+                            <br></br>
                             <div className="mern">
                                 <DiMongodb className="mongo" />
                                 <span className="express"> express </span>
@@ -98,9 +96,9 @@ function About() {
 
                 <div className="row">
                     <div className="col-md-6 offset-sm-3">
-
+                       
                         <h1 className="h1">My skills<FaLongArrowAltDown className="arrow" /> </h1>
-                        <br></br>
+                        <br></br><br></br>
 
                         {/* Skills chart */}
 

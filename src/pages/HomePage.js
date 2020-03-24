@@ -7,12 +7,10 @@ import styled, { keyframes } from "styled-components";
 import { pulse } from "react-animations";
 // react-bootstrap
 import { FaArrowRight } from 'react-icons/fa';
-import { MdRestaurant } from 'react-icons/md';
-import { FaBed } from 'react-icons/fa';
-import { GoCode } from 'react-icons/go';
-import { AiOutlineReload } from 'react-icons/ai';
 import Footer from "../components/Footer/index";
-import Navbar from "../components/Navbar/index"
+import Navbar from "../components/Navbar/index";
+import Image from 'react-bootstrap/Image';
+
 
 
 const Pulse = styled.div`animation: 2s ${keyframes`${pulse}`} infinite`;
@@ -22,13 +20,15 @@ function Home() {
         <>
             <Navbar />
             <div className="container-fluid main">
+                <div className="row">
+                    <div className="col-md-6 col-sm-12">
 
                 <br></br><br></br><br></br><br></br><br></br>
 
-                <h1 className="text-center">Hello, I'm Anna</h1>
+                <h1 className="text-center">Hello World, I'm Anna</h1>
                 <h1 className="text-center">I'm a <span className="full">full-stack</span> web developer</h1>
 
-                <br></br><br></br>
+                <br></br><br></br><br></br>
 
                 <Link to="./AboutPage" style={{ textDecoration: 'none' }}>
                     <div>
@@ -37,10 +37,20 @@ function Home() {
                         </Pulse>
                     </div>
                 </Link>
-                <br></br><br></br>
-                <p><span className="span">eat</span>(<MdRestaurant/>)<span className="span">sleep</span>(<FaBed />)<span className="span">code</span>(<GoCode />)<span className="span">repeat</span>(<AiOutlineReload />)</p>
-                <br></br><br></br>
+                </div>
+
+                <div className="col-md-6 col-sm-12 hom">
+                <br></br><br></br><br></br><br></br>
+                <div className="card">
+                    <Image src="/images/laptop.jpg"  height="281px"/>
+            
+                    </div>
+                </div>
+                
+              
+                </div>
             </div>
+           <br></br><br></br><br></br>
             <Footer />
         </>
     );

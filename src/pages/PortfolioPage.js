@@ -60,7 +60,7 @@ class Portfolio extends Component {
                             <div className="content">
                                 <h5> {name}</h5>
                                 <p className="description"> {description} </p>
-                                <a href={link} >See project <FaGlasses className="glasses"/></a>
+                                <a href={link} >view project <FaGlasses className="glasses"/></a>
                             </div>
                             <br></br>
                         </div>
