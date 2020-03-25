@@ -27,7 +27,7 @@ class Portfolio extends Component {
                     "image": "/images/bid.png",
                     "name": "BidBot",
                     "description": "Online auction website, where you can bid on items in different categories, as well as post your own",
-                    "link": "https://github.com/vormc2005/Project3"
+                    "link": "https://bidbot-auction.herokuapp.com/"
                 },
                 {
                     "id": 3,
