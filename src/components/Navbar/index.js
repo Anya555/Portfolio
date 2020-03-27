@@ -9,8 +9,10 @@ function Navbar() {
   return (
     <>
     <nav className="navbar navbar-expand-lg nav1">
+
     <a href="https://www.linkedin.com/in/anna-panas-0a51a8a8/"><FaLinkedinIn className="linkedin"/></a>
     <a href="https://github.com/Anya555?tab=repositories"><FaGithub className="github"/></a>
+    
       <button className="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">

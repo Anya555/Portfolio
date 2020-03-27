@@ -6,7 +6,10 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import "./contactpage.css";
 import swal from 'sweetalert';
-import { AiOutlineLike } from 'react-icons/ai';
+import { fadeIn } from 'react-animations';
+import styled, { keyframes } from "styled-components";
+
+const FadeIn = styled.div`animation: 1s ${keyframes`${fadeIn}`} `
 
 
 class ContactForm extends Component {
@@ -15,19 +18,22 @@ class ContactForm extends Component {
         email: '',
         subject: '',
         message: '',
-        count: 0
     }
 
     handleSubmit(e) {
         e.preventDefault()
+        
+          // email js  parameters
+
         const { name, email, subject, message } = this.state
         let templateParams = {
+            name: name,
             from_name: email,
             to_name: 'gmail',
             subject: subject,
             message_html: message,
         }
-        // email js  parameters
+      
         emailjs.send(
             'gmail',
             'template_wtAzDIQ6',
@@ -41,7 +47,7 @@ class ContactForm extends Component {
             title: "Thank You!",
             text: "Your message has been sent!",
             icon: "success",
-            button: "Ok",
+            button: "Ok"
         });
     }
 
@@ -61,27 +67,22 @@ class ContactForm extends Component {
         this.setState({ [param]: e.target.value })
     }
 
-    // updating like button's count by updating it's state
-    handleIncrement = () => {
-        this.setState({ count: this.state.count + 1 });
-    };
-
+    
     render() {
         return (
             <>
                 <Navbar />
                 <br></br>
-                <div class="icon-bar">
-                    <Button variant="outline-light" onClick={this.handleIncrement} className="like-btn">
-                    <AiOutlineLike className="like"/> <span className="count">{this.state.count}</span> 
-                    </Button>
-                </div>
+               
 
                 <div className="container">
                     <div className="row">
 
                         <div className="col-md-6 offset-sm-3 col-sm-12">
+
+                        <FadeIn>
                             <h4 className="getintouch">Please fill out a form to get in touch with me</h4>
+                         
                             <div className="card">
                                 <Form onSubmit={this.handleSubmit.bind(this)} className="form">
 
@@ -143,9 +144,9 @@ class ContactForm extends Component {
                                     <br></br><br></br>
 
                                 </Form>
-
+                              
                             </div>
-
+                            </FadeIn>
                         </div>
 
                     </div>

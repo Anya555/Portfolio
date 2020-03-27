@@ -17,40 +17,13 @@
 .submit:hover{
     background-color: #4AA69F;
     border-color:#4AA69F;
-    }
+   
+}
 
-.icon-bar {
-    position: fixed;
-    top: 55%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left:10px
-  }
-
-  .like-btn{
-      background-color: white;
-      border-color: white;
-      all: unset;
-  }
-
- 
-  .like-btn:hover {
-       text-decoration:none; 
-       cursor:pointer;  
-       background-color: transparent;
-       color: white;
-  }
-  
-  .like{
-      font-size: x-large;
-      color: #4AA69F
-  }
-
-  .count{
-    font-size: large;
-  }
-
+.submit:focus{
+    cursor:pointer;  
+    background-color: transparent;
+}
 
 
 .getintouch{
@@ -67,6 +40,9 @@ input, textarea{
     background-color: #1b242f;
 }
 
-/* ::placeholder{
-    color: #4AA69F
-} */
+.swal-button--confirm {
+    background: #1b242f;
+    color:#4AA69F;
+    border: 1px solid #1b242f;
+}
+
