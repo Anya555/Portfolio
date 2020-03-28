@@ -96,7 +96,7 @@ function About() {
 
                 <div className="row">
                     <div className="col-md-6 offset-sm-3">
-                       
+                       <br></br><br></br><br></br>
                         <h1 className="h1">My skills<FaLongArrowAltDown className="arrow" /> </h1>
                         <br></br><br></br>
 

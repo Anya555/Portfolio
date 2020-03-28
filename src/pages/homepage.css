@@ -1,45 +1,45 @@
-/* .main {
-	background: linear-gradient(-45deg,  #b69b93, rgb(221, 212, 221), white, black);
-	background-size: 700% 1200%;
-	animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
-.quote{
-	font-family: 'Gloria Hallelujah', cursive;
-  color: rgb(70, 41, 59);
-  text-align: center;
-}
- 
-h1{
-  font-family: 'Gloria Hallelujah', cursive;
-  color: rgb(70, 41, 59);
-}
-
-.h6{
-	color: rgb(70, 41, 59);
-}
-
-.full{
-  color:rgb(102, 38, 38);
-}
-
-
 
 .arrow{
 	padding-left: 20px;
 	color: rgb(158, 23, 23);
-	
 }
 
+ .home{
+	padding-right: 0px;
+	padding-left: 0px;
+ }
 
+ .centered {
+	position: absolute;
+	top: 40%;
+	left: 69%;
+	transform: translate(-50%, -50%);
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 350%;
+	color: rgb(70, 41, 59);
+  }
+
+  .get{
+	position: absolute;
+	bottom: 20px;
+	right: 65px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	color:black;
+	font-size: xx-large;
+  }
+ 
+  @media only screen and (max-width: 600px) {
+	.centered {
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 250%;
+	  }
+	.get{
+		top: -70px;
+		right: 50px;
+	}
+	
+  }

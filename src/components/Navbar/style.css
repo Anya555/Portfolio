@@ -1,8 +1,9 @@
 .nav-link {
     color: rgb(110, 14, 62) !important;
-    font-family:  'Gloria Hallelujah', cursive;
+    font-family:  'Titillium Web', sans-serif;
     position:right;
     font-size: x-large;
+    font-weight: bold;
     margin-left:30px;
 }
 

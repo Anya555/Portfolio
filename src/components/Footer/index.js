@@ -12,7 +12,6 @@ class Footer extends Component {
       count: 0,
       updated: false
     }
-    this. handleIncrement = this. handleIncrement.bind(this);
   }
 
 
