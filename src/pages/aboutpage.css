@@ -66,22 +66,6 @@ h3{
   color:rgb(70, 41, 59);
 }
 
-.progress-bar {  
-  background-color: #4AA69F;
-}
-
-.label{
-text-align: left;
-margin-left: 10px;
-color:rgb(97, 63, 84);
-font-weight: bold;
-font-family: 'Titillium Web', sans-serif;
-font-size: larger;
-}
-
-.progress{
-  height: 25px;
-}
 
 .mongo{
   font-size: xx-large;
@@ -128,3 +112,150 @@ h1{
   font-size: smaller;
 }
 
+.progress-bar {  
+  background-color: #4AA69F;
+}
+
+.label{
+  width:100px;
+  text-align: center;
+  background-color: rgb(136, 207, 207);
+  color:rgb(97, 63, 84);
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: larger;
+}
+
+.progress{
+  height: 25px;
+}
+
+.html{
+  animation: html 2s;
+}
+
+.css{
+  animation: css 2s;
+}
+
+.js{
+  animation: js 2s;
+}
+
+.node{
+  animation: node 2s;
+}
+
+.react{
+  animation: react 2s;
+}
+
+.express{
+  animation: express 2s;
+}
+
+.mongo{
+  animation: mongo 2s;
+}
+
+.mysql{
+  animation: mysql 2s;
+}
+
+.bootstrap{
+  animation: bootstrap 2s;
+}
+
+.mui{
+  animation: mui 2s;
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:70%
+  }
+}
+
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:65%
+  }
+}
+
+@keyframes js {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:60%
+  }
+}
+
+@keyframes node {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:60%
+  }
+}
+
+@keyframes express {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:55%
+  }
+}
+
+@keyframes react {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:50%
+  }
+}
+
+@keyframes mongo {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:65%
+  }
+}
+
+@keyframes mysql {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:65%
+  }
+}
+
+@keyframes bootstrap {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:75%
+  }
+}
+
+@keyframes mui {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:75%
+  }
+}

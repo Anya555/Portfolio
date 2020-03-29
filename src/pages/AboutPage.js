@@ -9,6 +9,7 @@ import Footer from '../components/Footer/index'
 
 import { slideInLeft } from "react-animations";
 import { slideInRight } from "react-animations";
+import { fadeInLeft } from 'react-animations';
 import styled, { keyframes } from "styled-components";
 import "./aboutpage.css";
 
@@ -25,10 +26,13 @@ import { FaLongArrowAltDown } from 'react-icons/fa';
 // keyframes
 const SlideInLeft = styled.div`animation: 1s ${keyframes`${slideInLeft}`} `;
 const SlideInRight = styled.div`animation: 1s ${keyframes`${slideInRight}`} `;
+const FadeInLeft = styled.div`animation: 1s ${keyframes`${fadeInLeft}`} `
 
 
 
 function About() {
+
+  
     return (
         <>
             <Navbar />
@@ -62,7 +66,7 @@ function About() {
                             <br></br>
 
                             <p> I'm a <span className="stack">full-stack</span> web developer, passionate about creating dynamic web applications. I enjoy making responsive design, focusing on clean and intuitive UI. Most of my time is dedicated to  learning new technologies and writing clean efficient code.  I strongly believe that any success is all about persistence.
-                 
+
 
 
                             </p>
@@ -96,56 +100,76 @@ function About() {
 
                 <div className="row">
                     <div className="col-md-6 offset-sm-3">
-                       <br></br><br></br><br></br>
+                        <br></br><br></br><br></br>
                         <h1 className="h1">My skills<FaLongArrowAltDown className="arrow" /> </h1>
                         <br></br><br></br>
 
                         {/* Skills chart */}
 
                         <div className="skills-chart">
+
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "90%" }} ><span className="label">HTML</span></div>
+                                <span className="label">HTML</span>
+                                <div className="progress-bar html" style={{ width: "70%" }}></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "70%" }} ><span className="label">CSS</span></div>
+                            <span className="label">CSS</span>
+                                <div className="progress-bar css" style={{ width: "65%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "60%" }} ><span className="label">JS</span></div>
+                            <span className="label">JS</span>
+                                <div className="progress-bar js" style={{ width: "60%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "70%" }} ><span className="label">NODE.js</span></div>
+                            <span className="label">NODE.js</span>
+                                <div className="progress-bar node" style={{ width: "60%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "50%" }} ><span className="label">REACT.js</span></div>
+                            <span className="label">REACT.js</span>
+                                <div className="progress-bar react" style={{ width: "50%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "60%" }} ><span className="label">EXPRESS</span></div>
+                            <span className="label">EXPRESS</span>
+                                <div className="progress-bar express" style={{ width: "55%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "70%" }} ><span className="label">MongoDB</span></div>
+                            <span className="label">MongoDB</span>
+                                <div className="progress-bar mongo" style={{ width: "65%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "70%" }} ><span className="label">MySQL</span></div>
+                            <span className="label">MySQL</span>
+                                <div className="progress-bar mysql" style={{ width: "65%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "80%" }} ><span className="label">BOOTSTRAP</span></div>
+                            <span className="label">BOOTSTRAP</span>
+                                <div className="progress-bar bootstrap" style={{ width: "75%" }} ></div>
                             </div>
+
                             <br></br>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "80%" }} ><span className="label">MUI</span></div>
+                            <span className="label">MUI</span>
+                                <div className="progress-bar mui" style={{ width: "75%" }} ></div>
                             </div>
                             <br></br>
                         </div>
 
-
+                       
                     </div>
                 </div>
             </div>
