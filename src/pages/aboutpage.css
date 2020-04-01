@@ -10,6 +10,7 @@ h4{
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 p{
@@ -48,11 +49,6 @@ p{
  
 }
 
-.formula{
-  color: rgb(70, 41, 59);
-  font-weight: bolder;
-  font-family: 'Titillium Web', sans-serif;
-}
 
 .stack{
   color:rgb(70, 41, 59);
@@ -67,25 +63,25 @@ h3{
 }
 
 
-.mongo{
+.mongo-icn{
   font-size: xx-large;
   color:green;
   padding-right: 10px;
 }
 
-.react{
+.react-icn{
   font-size: xx-large;
   color: #4AA69F;
   padding-right: 10px;
 }
 
-.node{
+.node-icn{
   font-size: xx-large;
   color: rgb(21, 61, 16);
   padding-right: 10px;
 }
 
-.express{
+.express-icn{
   font-size: larger;
   color:rgb(70, 41, 59);
   padding-right: 10px;
@@ -113,14 +109,15 @@ h1{
 }
 
 .progress-bar {  
-  background-color: #4AA69F;
+  background-color: rgb(63, 168, 161);
 }
+
 
 .label{
   width:100px;
   text-align: center;
-  background-color: rgb(136, 207, 207);
-  color:rgb(97, 63, 84);
+  background-color: rgb(87, 196, 196);
+  color:white;
   font-weight: bold;
   font-family: 'Titillium Web', sans-serif;
   font-size: larger;
@@ -170,7 +167,7 @@ h1{
   animation: mui 2s;
 }
 
-@keyframes html {
+@keyframes html  {
   0%{
     width: 0%;
   }
@@ -259,3 +256,6 @@ h1{
     width:75%
   }
 }
+
+
+

@@ -9,7 +9,6 @@ import Footer from '../components/Footer/index'
 
 import { slideInLeft } from "react-animations";
 import { slideInRight } from "react-animations";
-import { fadeInLeft } from 'react-animations';
 import styled, { keyframes } from "styled-components";
 import "./aboutpage.css";
 
@@ -26,13 +25,12 @@ import { FaLongArrowAltDown } from 'react-icons/fa';
 // keyframes
 const SlideInLeft = styled.div`animation: 1s ${keyframes`${slideInLeft}`} `;
 const SlideInRight = styled.div`animation: 1s ${keyframes`${slideInRight}`} `;
-const FadeInLeft = styled.div`animation: 1s ${keyframes`${fadeInLeft}`} `
+
+
+function Home() {
 
 
 
-function About() {
-
-  
     return (
         <>
             <Navbar />
@@ -74,7 +72,7 @@ function About() {
                     </div>
 
                     <div className="col-md-4 col-sm-12 img">
-                        <Image src="/images/pic.jpg" roundedCircle width="230px" height="250px" />
+                        <Image src="/images/mememe.jpg" roundedCircle width="230px" height="250px" />
                     </div>
 
                     <div className="col-md-4 col-sm-12">
@@ -88,10 +86,10 @@ function About() {
                             <p>Recent graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University. During the program I learned how to develop end-to-end web applications using modern coding tools and libraries, as well as delivering high quality code. </p>
                             <br></br>
                             <div className="mern">
-                                <DiMongodb className="mongo" />
-                                <span className="express"> express </span>
-                                <span> <FaReact className="react" /> </span>
-                                <span>   <FaNodeJs className="node" /> </span>
+                                <DiMongodb className="mongo-icn" />
+                                <span className="express-icn"> express </span>
+                                <span> <FaReact className="react-icn" /> </span>
+                                <span>   <FaNodeJs className="node-icn" /> </span>
                             </div>
 
                         </SlideInRight>
@@ -105,71 +103,72 @@ function About() {
                         <br></br><br></br>
 
                         {/* Skills chart */}
-
-                        <div className="skills-chart">
-
-                            <div className="progress">
-                                <span className="label">HTML</span>
-                                <div className="progress-bar html" style={{ width: "70%" }}></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">CSS</span>
-                                <div className="progress-bar css" style={{ width: "65%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">JS</span>
-                                <div className="progress-bar js" style={{ width: "60%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">NODE.js</span>
-                                <div className="progress-bar node" style={{ width: "60%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">REACT.js</span>
-                                <div className="progress-bar react" style={{ width: "50%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">EXPRESS</span>
-                                <div className="progress-bar express" style={{ width: "55%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">MongoDB</span>
-                                <div className="progress-bar mongo" style={{ width: "65%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">MySQL</span>
-                                <div className="progress-bar mysql" style={{ width: "65%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">BOOTSTRAP</span>
-                                <div className="progress-bar bootstrap" style={{ width: "75%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
-                            <span className="label">MUI</span>
-                                <div className="progress-bar mui" style={{ width: "75%" }} ></div>
-                            </div>
-                            <br></br>
-                        </div>
-
                        
+                                <div className="skills">
+
+                                    <div className="progress">
+                                        <span className="label">HTML</span>
+                                        <div className="progress-bar html" style={{ width: "70%" }}></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">CSS</span>
+                                        <div className="progress-bar css" style={{ width: "65%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">JS</span>
+                                        <div className="progress-bar js" style={{ width: "60%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">NODE.js</span>
+                                        <div className="progress-bar node" style={{ width: "60%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">REACT.js</span>
+                                        <div className="progress-bar react" style={{ width: "50%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">EXPRESS</span>
+                                        <div className="progress-bar express" style={{ width: "55%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">MongoDB</span>
+                                        <div className="progress-bar mongo" style={{ width: "65%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">MySQL</span>
+                                        <div className="progress-bar mysql" style={{ width: "65%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">BOOTSTRAP</span>
+                                        <div className="progress-bar bootstrap" style={{ width: "75%" }} ></div>
+                                    </div>
+
+                                    <br></br>
+                                    <div className="progress">
+                                        <span className="label">MUI</span>
+                                        <div className="progress-bar mui" style={{ width: "75%" }} ></div>
+                                    </div>
+                                    <br></br>
+                                </div>
+                           
+                               
+
                     </div>
                 </div>
             </div>
@@ -178,6 +177,7 @@ function About() {
 
         </>
     );
+    
 }
 
-export default About;
+export default Home;

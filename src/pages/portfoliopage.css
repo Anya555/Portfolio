@@ -1,10 +1,10 @@
 .portfolio-pic{
-    height: 250px;
+    height: 200px;
     width:100%;
     padding-bottom: 10px;
     border-color: black;
+   
 }
-
 
 
 h5{
@@ -15,7 +15,6 @@ h5{
     color: rgb(71, 7, 77);
     text-align: left;
 }
-
 
 
 .description{
@@ -36,12 +35,14 @@ h5{
 
 a {
     all: unset;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family:'Titillium Web', sans-serif;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(168, 34, 101)
+    color: rgb(90, 18, 54);
+    font-size: larger;
+    font-weight: bold;
 }
 
 
@@ -51,6 +52,11 @@ a:hover
      cursor:pointer;  
 }
 
-.card{
-    border-color: white;
+/* .card{
+   box-shadow: 0.5px 0px 0.5px 0.5px rgb(190, 187, 187);
+} */
+
+.port{
+    padding-right: 120px;
+    padding-left: 120px;
 }

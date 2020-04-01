@@ -16,10 +16,12 @@ const Pulse = styled.div`animation: 2s ${keyframes`${pulse}`} infinite`;
 
 
 function Home() {
+   
+     
+     
     return (
         <>
             <Navbar />
-
 
             <div className="container-fluid">
                 <div className="row">

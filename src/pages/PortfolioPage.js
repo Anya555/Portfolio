@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+// react-router
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import { FaGlasses } from 'react-icons/fa';
@@ -17,25 +19,21 @@ class Portfolio extends Component {
                
                 {
                     "id": 1,
-                    "image": "/images/shopdesk.png",
+                    "image": "/images/shop1.png",
                     "name": "Shop desk",
-                    "description": "Shop desk let's you sell products online, keeping your unique brand with no web development experience",
-                    "link": "https://guarded-brook-11312.herokuapp.com/"
+                    "description": "Ecommerce platform ",
+                    // "link": "https://guarded-brook-11312.herokuapp.com/"
+                    "link":"./Shopdesk"
                 },
                 {
                     "id": 2,
-                    "image": "/images/bid.png",
+                    "image": "/images/bot2.png",
                     "name": "BidBot",
-                    "description": "Online auction website, where you can bid on items in different categories, as well as post your own",
-                    "link": "https://bidbot-auction.herokuapp.com/"
-                },
-                {
-                    "id": 3,
-                    "image": "/images/starxed.png",
-                    "name": "StarXed",
-                    "description": "Dating app, that let's you find your match in your area, based on zodiac sign compatibility and read daily horoscope",
-                    "link": "https://brer4449.github.io/groupproject1/"
-                },
+                    "description": "Online auction website",
+                    // "link": "https://bidbot-auction.herokuapp.com/"
+                    "link": "./Bidbot"
+                }
+               
             ]
 
         }
@@ -52,15 +50,15 @@ class Portfolio extends Component {
                 <>
                     <div className="col-md-6 col-sm-12">
                         <SlideInUp>
-                        <div className="card" key={id}>
+                        <div className="card"  key={id}>
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" />
                             </div>
-                            <br></br>
+                  
                             <div className="content">
                                 <h5> {name}</h5>
                                 <p className="description"> {description} </p>
-                                <a href={link} >view project <FaGlasses className="glasses"/></a>
+                                <Link to={link}>Learn more <FaGlasses className="glasses"/></Link>
                             </div>
                             <br></br>
                         </div>
@@ -68,7 +66,6 @@ class Portfolio extends Component {
                         <br></br>
                     </div>
                 </>
-
 
             )
 
@@ -81,9 +78,9 @@ class Portfolio extends Component {
             <>
 
                 <Navbar />
-                <br></br>
+                <br></br><br></br>
 
-                <div className="container-fluid">
+                <div className="container port">
                     <div className="row">
                         <div className="col-12">
                           
