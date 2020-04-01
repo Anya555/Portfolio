@@ -30,7 +30,6 @@ const SlideInRight = styled.div`animation: 1s ${keyframes`${slideInRight}`} `;
 function Home() {
 
 
-
     return (
         <>
             <Navbar />
@@ -103,71 +102,72 @@ function Home() {
                         <br></br><br></br>
 
                         {/* Skills chart */}
-                       
-                                <div className="skills">
 
-                                    <div className="progress">
-                                        <span className="label">HTML</span>
-                                        <div className="progress-bar html" style={{ width: "70%" }}></div>
-                                    </div>
+                        <div className="skills">
 
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">CSS</span>
-                                        <div className="progress-bar css" style={{ width: "65%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">JS</span>
-                                        <div className="progress-bar js" style={{ width: "60%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">NODE.js</span>
-                                        <div className="progress-bar node" style={{ width: "60%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">REACT.js</span>
-                                        <div className="progress-bar react" style={{ width: "50%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">EXPRESS</span>
-                                        <div className="progress-bar express" style={{ width: "55%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">MongoDB</span>
-                                        <div className="progress-bar mongo" style={{ width: "65%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">MySQL</span>
-                                        <div className="progress-bar mysql" style={{ width: "65%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">BOOTSTRAP</span>
-                                        <div className="progress-bar bootstrap" style={{ width: "75%" }} ></div>
-                                    </div>
-
-                                    <br></br>
-                                    <div className="progress">
-                                        <span className="label">MUI</span>
-                                        <div className="progress-bar mui" style={{ width: "75%" }} ></div>
-                                    </div>
-                                    <br></br>
+                            <div className="progress">
+                                <span className="label">HTML</span>
+                                <div className="progress-bar html" style={{ width: "70%" }} >
                                 </div>
-                           
-                               
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">CSS</span>
+                                <div className="progress-bar css" style={{ width: "65%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">JS</span>
+                                <div className="progress-bar js" style={{ width: "60%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">NODE.js</span>
+                                <div className="progress-bar node" style={{ width: "60%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">REACT.js</span>
+                                <div className="progress-bar react" style={{ width: "50%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">EXPRESS</span>
+                                <div className="progress-bar express" style={{ width: "55%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">MongoDB</span>
+                                <div className="progress-bar mongo" style={{ width: "65%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">MySQL</span>
+                                <div className="progress-bar mysql" style={{ width: "65%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">BOOTSTRAP</span>
+                                <div className="progress-bar bootstrap" style={{ width: "75%" }} ></div>
+                            </div>
+
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">MUI</span>
+                                <div className="progress-bar mui" style={{ width: "75%" }} ></div>
+                            </div>
+                            <br></br>
+                        </div>
+
+
 
                     </div>
                 </div>
@@ -177,7 +177,7 @@ function Home() {
 
         </>
     );
-    
+
 }
 
 export default Home;
