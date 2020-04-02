@@ -4,12 +4,8 @@ import React from "react";
 import Navbar from "../components/Navbar/index";
 import Image from 'react-bootstrap/Image';
 import Footer from '../components/Footer/index'
-
-// react- css animations
-
-import { slideInLeft } from "react-animations";
-import { slideInRight } from "react-animations";
-import styled, { keyframes } from "styled-components";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./aboutpage.css";
 
 // react-icons
@@ -22,14 +18,14 @@ import { FaReact } from 'react-icons/fa';
 import { FaLongArrowAltDown } from 'react-icons/fa';
 
 
-// keyframes
-const SlideInLeft = styled.div`animation: 1s ${keyframes`${slideInLeft}`} `;
-const SlideInRight = styled.div`animation: 1s ${keyframes`${slideInRight}`} `;
-
 
 function Home() {
 
+    AOS.init({
+        duration: 1200,
+    })
 
+    
     return (
         <>
             <Navbar />
@@ -53,29 +49,25 @@ function Home() {
 
                 <div className="row">
 
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-md-4 col-sm-12"  data-aos="fade-right">
                         <br></br>
-                        <SlideInLeft>
+                 
                             <span className="code"><FaAngleLeft className="bracket" />
                                 <span className="coder">coder</span>
                                 <FaAngleRight className="bracket" /></span>
 
                             <br></br>
 
-                            <p> I'm a <span className="stack">full-stack</span> web developer, passionate about creating dynamic web applications. I enjoy making responsive design, focusing on clean and intuitive UI. Most of my time is dedicated to  learning new technologies and writing clean efficient code.  I strongly believe that any success is all about persistence.
-
-
-
-                            </p>
-                        </SlideInLeft>
+                            <p> I'm a <span className="stack">full-stack</span> web developer, passionate about creating dynamic web applications. I enjoy making responsive design, focusing on clean and intuitive UI. Most of my time is dedicated to  learning new technologies and writing clean efficient code.  I strongly believe that any success is all about persistence. </p>
+                       
                     </div>
 
                     <div className="col-md-4 col-sm-12 img">
                         <Image src="/images/mememe.jpg" roundedCircle width="230px" height="250px" />
                     </div>
 
-                    <div className="col-md-4 col-sm-12">
-                        <SlideInRight>
+                    <div className="col-md-4 col-sm-12"  data-aos="fade-left">
+                   
                             <br></br>
                             <span className="code"><FaAngleLeft className="bracket" />
                                 <span className="coder">background</span>
@@ -91,7 +83,7 @@ function Home() {
                                 <span>   <FaNodeJs className="node-icn" /> </span>
                             </div>
 
-                        </SlideInRight>
+                      
                     </div>
                 </div>
 

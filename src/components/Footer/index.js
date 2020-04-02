@@ -1,55 +1,74 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 import ScrollUpButton from "react-scroll-up-button";
 import { AiOutlineLike } from 'react-icons/ai';
 
 
-class Footer extends Component {
-  constructor(props){
+function Footer() {
+  const [
+    count,
+    setCount
+  ] = useStickyState(0, "count");
 
-    super(props);
-    this.state ={
-      count: 0,
-      updated: false
-    }
+  function useStickyState(defaultValue, key) {
+    const [value, setValue] = React.useState(() => {
+      const stickyValue = window.localStorage.getItem(key);
+      return stickyValue !== null
+        ? JSON.parse(stickyValue)
+        : defaultValue;
+    });
+    React.useEffect(() => {
+      window.localStorage.setItem(key, JSON.stringify(value));
+    }, [key, value]);
+    return [value, setValue];
   }
+ 
+
+  //   constructor(props){
+
+  //     super(props);
+  //     this.state ={
+  //       count: 0,
+  //       updated: false
+  //     }
+  //   }
 
 
-  // updating likes count
-  handleIncrement = () => {
-   
-    if(!this.state.updated) {
-      this.setState((prevState) => {
-        return {
-          count: prevState.count + 1,
-          updated: true
-        };
-      });
-    } else {
+  //   // updating likes count
+  //  handleLikesCount= () => {
 
-      this.setState((prevState) => {
-        return {
-          count: prevState.count - 1,
-          updated: false
-        };
-      });
-    }
-  };
+  //     if(!this.state.updated) {
+  //       this.setState((prevState) => {
+  //         return {
+  //           count: prevState.count + 1,
+  //           updated: true
+  //         };
+  //       });
+  //     } else {
+
+  //       this.setState((prevState) => {
+  //         return {
+  //           count: prevState.count - 1,
+  //           updated: false
+  //         };
+  //       });
+  //     }
+  //   };
 
 
-  render() {
+ 
     return (
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 foot">
             <footer className="page-footer">
 
-              <ScrollUpButton  style={{ backgroundColor: "#660033", height:"38px", width:"38px" }} />
+              <ScrollUpButton style={{ backgroundColor: "#660033", height: "38px", width: "38px" }} />
 
               <div className="footer">
 
-                <AiOutlineLike className="like-icn" onClick={this.handleIncrement} /> <span className="count"> Likes: {this.state.count}</span>
-
+                <AiOutlineLike className="like-icn" onClick={() => setCount(count + 1)} /> <span className="count"> Likes: {count}</span>
+              
                Anna Panas <span className="copy">©2020</span>
               </div>
 
@@ -58,7 +77,7 @@ class Footer extends Component {
         </div>
       </div>
     );
-  }
+ 
 }
 
 export default Footer;

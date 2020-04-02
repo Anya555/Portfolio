@@ -49,13 +49,13 @@ function Bidbot() {
                 <br></br>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
-                    <div className="card" data-aos="fade-up">
+                    <div className="card"  data-aos="fade-right">
                             <img src="/images/b1.png" width="100%" height="300px" />
                         </div>
                     </div>
                
                     <div className="col-md-6 col-sm-12">
-                    <div className="card" data-aos="fade-up">
+                    <div className="card" data-aos="fade-left">
                             <img src="/images/b2.png" width="100%" height="300px" />
                         </div>
                     </div>
@@ -67,11 +67,11 @@ function Bidbot() {
                 <div className="row">
                     <div className="col-md-5 offset-sm-1 col-sm-12">
                         <br></br><br></br><br></br>
-                    <p>Online auctions are  benefitial  to sellers, because sellers don't have to pay fees to hold an auction event in a certain location. Just post your item and make some extra cash <span className="arrow"><FaArrowRight /></span></p>
+                    <p data-aos="zoom-out-down">Online auctions are  benefitial  to sellers, because sellers don't have to pay fees to hold an auction event in a certain location. Just post your item and make some extra cash <span className="arrow"><FaArrowRight /></span></p>
                     </div>
 
                     <div className="col-md-3 offset-sm-1 col-sm-12">
-                    <div className="card" data-aos="fade-up">
+                    <div className="card" >
                             <img src="/images/post.png" width="100%" height="400px" />
                         </div>
                     </div>
