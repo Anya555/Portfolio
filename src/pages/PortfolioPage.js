@@ -5,13 +5,12 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import { FaGlasses } from 'react-icons/fa';
 import './portfoliopage.css';
-import { slideInUp} from "react-animations";
-import styled, { keyframes } from "styled-components";
-
-const SlideInUp = styled.div`animation: 1s ${keyframes`${slideInUp}`} `;
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Portfolio extends Component {
 
+    
     constructor(props) {
         super(props)
         this.state = {
@@ -39,6 +38,7 @@ class Portfolio extends Component {
         }
     }
 
+    
 
 
     renderCardData() {
@@ -49,8 +49,8 @@ class Portfolio extends Component {
 
                 <>
                     <div className="col-md-6 col-sm-12">
-                        <SlideInUp>
-                        <div className="card"  key={id}>
+              
+                        <div className="card"  key={id} data-aos="fade-up">
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" />
                             </div>
@@ -62,7 +62,7 @@ class Portfolio extends Component {
                             </div>
                             <br></br>
                         </div>
-                        </SlideInUp>
+                      
                         <br></br>
                     </div>
                 </>
@@ -74,6 +74,9 @@ class Portfolio extends Component {
 
 
     render() {
+        AOS.init({
+            duration: 1200,
+        })
         return (
             <>
 

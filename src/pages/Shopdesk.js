@@ -19,13 +19,16 @@ function Shopdesk() {
             <Navbar />
           
 
-            <div className="container-fluid shop">
-            <br></br><br></br><br></br><br></br>
+            <div className="container">
+                <br></br><br></br>
+            <h1 className="ecommerce">E-commerce is the future</h1>
+            <br></br><br></br>
+            
                 <div className="row">
 
                     <div className="col-md-4 offset-sm-1 col-sm-12">
                         <br></br><br></br><br></br>
-                        <h3 className="h3">E-commerce is growing five times faster than retail</h3>
+                           <p className="p"> It's growing five times faster than retail. Small businesses can't keep up being forced to lose out on sales or accept fees and brand dilution by selling their products on Amazon. </p>
 
                     </div>
                     <div className="col-md-6  col-sm-12">
@@ -43,9 +46,9 @@ function Shopdesk() {
                         </div>
                     </div>
 
-                    <div className="col-md-5 col-sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <br></br><br></br><br></br>
-                        <h3 className="h3">Small businesses can't compete with giants like Amazon and Wallmart</h3>
+                        <p className="p">Small businesses can't compete with giants like Amazon and Wallmart</p>
                     </div>
 
                 </div>
@@ -75,16 +78,16 @@ function Shopdesk() {
                 </div>
                 <br></br><br></br><br></br><br></br>
                 <h3 className="h3">Cloud based inventory management lets you keep track of your store from anywhere anytime </h3>
-                <br></br><br></br>
+                <br></br><br></br><br></br><br></br>
                 <div className="row">
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-5 offset-sm-1 col-sm-12">
                         <div className="card" data-aos="zoom-in">
-                            <img src="/images/s4.png" width="100%" height="350px" />
+                            <img src="/images/s4.png" width="100%" height="300px" />
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-5 col-sm-12">
                         <div className="card" data-aos="zoom-in">
-                            <img src="/images/s5.png" width="100%" height="350px" />
+                            <img src="/images/s5.png" width="100%" height="300px" />
                         </div>
                     </div>
                 </div>
@@ -99,7 +102,7 @@ function Shopdesk() {
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <br></br><br></br><br></br><br></br>
-                        <h3 className="h3 login">We use a secure login system to authenticate  and persist users and shopping carts </h3>
+                        <p className="p">We use a secure login system to authenticate  and persist users and shopping carts </p>
                     </div>
                 </div>
                 <br></br><br></br><br></br>
