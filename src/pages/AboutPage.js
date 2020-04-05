@@ -62,6 +62,7 @@ function Home() {
                        
                     </div>
 
+
                     <div className="col-md-4 col-sm-12 img">
                         <Image src="/images/mememe.jpg" roundedCircle width="230px" height="250px" />
                     </div>
@@ -91,7 +92,7 @@ function Home() {
                     <div className="col-md-6 offset-sm-3">
                         <br></br><br></br><br></br>
                         <h1 className="h1">My skills<FaLongArrowAltDown className="arrow" /> </h1>
-                        <br></br><br></br>
+                        <br></br>
 
                         {/* Skills chart */}
 
@@ -117,16 +118,17 @@ function Home() {
 
                             <br></br>
                             <div className="progress">
-                                <span className="label">NODE.js</span>
-                                <div className="progress-bar node" style={{ width: "60%" }} ></div>
-                            </div>
-
-                            <br></br>
-                            <div className="progress">
                                 <span className="label">REACT.js</span>
                                 <div className="progress-bar react" style={{ width: "50%" }} ></div>
                             </div>
 
+                            <br></br>
+                            <div className="progress">
+                                <span className="label">NODE.js</span>
+                                <div className="progress-bar node" style={{ width: "60%" }} ></div>
+                            </div>
+
+                            
                             <br></br>
                             <div className="progress">
                                 <span className="label">EXPRESS</span>
@@ -148,13 +150,13 @@ function Home() {
                             <br></br>
                             <div className="progress">
                                 <span className="label">BOOTSTRAP</span>
-                                <div className="progress-bar bootstrap" style={{ width: "75%" }} ></div>
+                                <div className="progress-bar bootstrap" style={{ width: "70%" }} ></div>
                             </div>
 
                             <br></br>
                             <div className="progress">
                                 <span className="label">MUI</span>
-                                <div className="progress-bar mui" style={{ width: "75%" }} ></div>
+                                <div className="progress-bar mui" style={{ width: "70%" }} ></div>
                             </div>
                             <br></br>
                         </div>

@@ -1,5 +1,5 @@
 .nav-link {
-    color: rgb(110, 14, 62) !important;
+    color: rgb(87, 50, 73) !important;
     font-family:  'Titillium Web', sans-serif;
     position:right;
     font-size: x-large;
@@ -7,24 +7,19 @@
     margin-left:30px;
 }
 
-
-span{
-    color: rgb(70, 41, 59);
-}
-
-.f{
-    color:rgb(110, 14, 62);
+.nav-link:hover{
+    opacity:0.5
 }
 
 
-.portfolio{
-    color: rgb(70, 41, 59);
+.about{
+    text-decoration: underline;
+    color:#4AA69F
 }
 
 .nav2{
     background-color: #1b242f;
     border-bottom: 3px solid #4AA69F;
-    
 }
 
 .navbar-toggler{
@@ -41,9 +36,17 @@ span{
     padding-right:10px
 }
 
+.linkedin:hover{
+    opacity: 0.5;
+}
+
 .github{
     font-size: x-large;
     color: black;
+}
+
+.github:hover{
+    opacity: 0.5;
 }
 
  @media only screen and (max-width: 600px) {

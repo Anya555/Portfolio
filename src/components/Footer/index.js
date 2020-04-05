@@ -5,16 +5,18 @@ import { AiOutlineLike } from 'react-icons/ai';
 
 
 function Footer() {
+
   const [
     count,
     setCount
-  ] = useStickyState(0, "count");
+  ] = useState(0, "count");
 
-  function useStickyState(defaultValue, key) {
+  // storing likes count
+  function useState(defaultValue, key) {
     const [value, setValue] = React.useState(() => {
-      const stickyValue = window.localStorage.getItem(key);
-      return stickyValue !== null
-        ? JSON.parse(stickyValue)
+      const keyValue = window.localStorage.getItem(key);
+      return keyValue !== null
+        ? JSON.parse(keyValue)
         : defaultValue;
     });
     React.useEffect(() => {
@@ -23,39 +25,6 @@ function Footer() {
     return [value, setValue];
   }
  
-
-  //   constructor(props){
-
-  //     super(props);
-  //     this.state ={
-  //       count: 0,
-  //       updated: false
-  //     }
-  //   }
-
-
-  //   // updating likes count
-  //  handleLikesCount= () => {
-
-  //     if(!this.state.updated) {
-  //       this.setState((prevState) => {
-  //         return {
-  //           count: prevState.count + 1,
-  //           updated: true
-  //         };
-  //       });
-  //     } else {
-
-  //       this.setState((prevState) => {
-  //         return {
-  //           count: prevState.count - 1,
-  //           updated: false
-  //         };
-  //       });
-  //     }
-  //   };
-
-
  
     return (
       <div className="container-fluid">
@@ -63,7 +32,7 @@ function Footer() {
           <div className="col-12 foot">
             <footer className="page-footer">
 
-              <ScrollUpButton style={{ backgroundColor: "#660033", height: "38px", width: "38px" }} />
+              <ScrollUpButton style={{ backgroundColor: "#4AA69F", height: "38px", width: "38px" }} />
 
               <div className="footer">
 

@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+//react components
 import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index"
-import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+// email js
+import emailjs from 'emailjs-com';
+// css/animations/swal
 import "./contactpage.css";
 import swal from 'sweetalert';
 import { fadeIn } from 'react-animations';

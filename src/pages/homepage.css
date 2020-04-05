@@ -9,7 +9,7 @@
 	padding-left: 0px;
  }
 
- .centered {
+ .hello {
 	position: absolute;
 	top: 40%;
 	left: 69%;
@@ -29,17 +29,21 @@
 	color:black;
 	font-size: xx-large;
   }
+
+  .love{
+	  display: none;
+  }
  
   @media only screen and (max-width: 600px) {
-	.centered {
+	.hello {
 		top: 20%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-size: 250%;
 	  }
 	.get{
-		top: -70px;
-		right: 50px;
+		display: none;
 	}
-	
+
+
   }

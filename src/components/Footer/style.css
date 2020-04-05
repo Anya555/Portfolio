@@ -9,7 +9,7 @@ footer {
 .footer {
   bottom: 0;
   padding: 10px;
-  color:rgb(168, 34, 101);
+  color:rgb(153, 27, 90);
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bolder;
@@ -39,19 +39,14 @@ footer {
 }
 
 
-.like:hover {
-   text-decoration:none; 
-   cursor:pointer;  
-   background-color: transparent;
-   color: #1b242f;
-   border-color: #1b242f;
-}
-
-
 .like-icn{
   font-size: x-large;
   color: #4AA69F;
   float:left;
+}
+
+.like-icn:hover{
+  color:rgb(168, 34, 101)
 }
 
 .count{

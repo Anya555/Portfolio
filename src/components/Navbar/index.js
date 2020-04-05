@@ -29,7 +29,7 @@ function Navbar() {
               className={
                 window.location.pathname === "/" ? "nav-link" : "nav-link"}
             >
-              H<span>o</span>m<span>e</span>
+           home
             </Link>
           </li>
           <li className="nav-item">
@@ -37,7 +37,7 @@ function Navbar() {
               to="/AboutPage"
               className={window.location.pathname === "/AboutPage" ? "nav-link" : "nav-link"}
             >
-              About 
+              <span className="about">about </span>
             </Link>
           </li>
           <li className="nav-item">
@@ -45,7 +45,7 @@ function Navbar() {
               to="/PortfolioPage"
               className={window.location.pathname === "/PortfolioPage" ? "nav-link" : "nav-link"}
             >
-              <span className="portfolio">Port</span><span className="f">f</span><span  className="portfolio">olio</span>
+             portfolio
             </Link>
           </li>
           <li className="nav-item">
@@ -53,7 +53,7 @@ function Navbar() {
               to="/ContactPage"
               className={window.location.pathname === "/ContactPage" ? "nav-link" : "nav-link"}
             >
-              Contact
+              contact
             </Link>
           </li>
         </ul>

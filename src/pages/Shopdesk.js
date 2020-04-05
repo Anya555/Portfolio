@@ -110,7 +110,7 @@ function Shopdesk() {
                 <br></br><br></br>
                 <div className="col-md-8 offset-sm-2 col-sm-12">
                     <div className="card" data-aos="flip-down">
-                        <img src="/images/shop.png" width="100%" height="350px" />
+                        <img src="/images/shop.png" width="100%" height="250px" />
                     </div>
                 </div>
                 <br></br><br></br><br></br>

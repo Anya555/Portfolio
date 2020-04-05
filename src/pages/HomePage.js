@@ -28,8 +28,8 @@ function Home() {
                     <div className="col-12 home">
                         <div className="card">
 
-                            <img src="/images/code.png" height="500px"/>
-                            <h1 className="centered">Hello, I'm Anna &</h1>
+                            <img src="/images/code.png" height="500px" className="coding"/>
+                            <h1 className="hello">Hello, I'm Anna &</h1>
                             <Link to="./AboutPage" style={{ textDecoration: 'none' }} className="get">
                                 <div>
                                     <Pulse>
