@@ -24,7 +24,7 @@ function Bidbot() {
 
                     <div className="col-md-6 offset-sm-1 col-sm-12">
                         <div className="card" data-aos="fade-left">
-                            <img src="/images/bot1.png" width="100%" height="300px" />
+                            <img src="/images/bot1.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
 
@@ -34,13 +34,13 @@ function Bidbot() {
                 <div className="row">
                     <div className="col-md-6  col-sm-12">
                         <div className="card">
-                            <img src="/images/bid.png" width="100%" height="300px" />
+                            <img src="/images/bid.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
                     <div className="col-md-5  col-sm-12">
                         <p>Just make yourself a cup of coffee and find your favorite pieces in different categories while still wearing pajamas</p>
                         <div className="card" data-aos="fade-up">
-                            <img src="/images/biditems.png" width="100%" height="200px" />
+                            <img src="/images/biditems.png" width="100%" height="200px" alt="bidbot"/>
                         </div>
                     </div>
                 </div>
@@ -50,13 +50,13 @@ function Bidbot() {
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                     <div className="card"  data-aos="fade-right">
-                            <img src="/images/b1.png" width="100%" height="300px" />
+                            <img src="/images/b1.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
                
                     <div className="col-md-6 col-sm-12">
                     <div className="card" data-aos="fade-left">
-                            <img src="/images/b2.png" width="100%" height="300px" />
+                            <img src="/images/b2.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
                     
@@ -72,7 +72,7 @@ function Bidbot() {
 
                     <div className="col-md-3 offset-sm-1 col-sm-12">
                     <div className="card" >
-                            <img src="/images/post.png" width="100%" height="400px" />
+                            <img src="/images/post.png" width="100%" height="400px" alt="bidbot"/>
                         </div>
                     </div>
                     

@@ -38,16 +38,6 @@ p{
   justify-content: center;
 }
 
-.success{
-  color: rgb(15, 95, 109);
-  font-weight: bolder;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-.icon{
-  color:rgb(15, 95, 109);
-}
-
 .stack{
   color:rgb(70, 41, 59);
   font-weight: bold;
@@ -111,7 +101,6 @@ h1{
   background-color: rgb(186, 193, 194);
 }
 
-
 .label{
   width:100px;
   text-align: center;
@@ -119,142 +108,16 @@ h1{
   color:#4AA69F;
   font-weight: bold;
   font-family: 'Titillium Web', sans-serif;
-  font-size: larger;
+  float:left;
+  height: 28px;
+  border-radius: 0mm;
+  font-size: smaller;
+  line-height: 1.5rem;
 }
 
 .progress{
-  height: 25px;
+  height: 28px;
+  border-radius: 0mm;
 }
-
-.html{
-  animation: html 2s;
-}
-
-.css{
-  animation: css 2s;
-}
-
-.js{
-  animation: js 2s;
-}
-
-.node{
-  animation: node 2s;
-}
-
-.react{
-  animation: react 2s;
-}
-
-.express{
-  animation: express 2s;
-}
-
-.mongo{
-  animation: mongo 2s;
-}
-
-.mysql{
-  animation: mysql 2s;
-}
-
-.bootstrap{
-  animation: bootstrap 2s;
-}
-
-.mui{
-  animation: mui 2s;
-}
-
-@keyframes html  {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:70%
-  }
-}
-
-@keyframes css {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:65%
-  }
-}
-
-@keyframes js {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:60%
-  }
-}
-
-@keyframes node {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:60%
-  }
-}
-
-@keyframes express {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:55%
-  }
-}
-
-@keyframes react {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:50%
-  }
-}
-
-@keyframes mongo {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:65%
-  }
-}
-
-@keyframes mysql {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:65%
-  }
-}
-
-@keyframes bootstrap {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:70%
-  }
-}
-
-@keyframes mui {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width:70%
-  }
-}
-
 
 

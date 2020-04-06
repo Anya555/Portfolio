@@ -56,7 +56,7 @@ class Portfolio extends Component {
                         <div className="card portfolio-card" key={id} data-aos="fade-up">
 
                             <div className="img-container">
-                                <img src={image} className="portfolio-pic" />
+                                <img src={image} className="portfolio-pic" alt="project"/>
                                 <h4 className="school">School Project</h4>
                                 <Button variant="outline-secondary" className="centered"><a href={address} className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
                             </div>

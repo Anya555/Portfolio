@@ -34,7 +34,7 @@ function Shopdesk() {
                     <div className="col-md-6  col-sm-12">
 
                         <div className="card" data-aos="zoom-in">
-                            <img src="/images/s1.png" width="100%" height="300px" />
+                            <img src="/images/s1.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ function Shopdesk() {
                 <div className="row">
                     <div className="col-md-6 offset-sm-1 col-sm-12">
                         <div className="card" data-aos="fade-right">
-                            <img src="/images/s2.png" width="100%" height="300px" />
+                            <img src="/images/s2.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
 
@@ -62,17 +62,17 @@ function Shopdesk() {
 
                     <div className="col-md-6 offset-sm-1 col-sm-12">
                         <div className="card" >
-                            <img src="/images/shopdesk.png" width="100%" height="200px" />
+                            <img src="/images/shopdesk.png" width="100%" height="200px" alt="shopdesk"/>
                         </div>
                         <br></br>
                         <div className="card" >
-                            <img src="/images/bedroom.png" width="100%" height="200px" />
+                            <img src="/images/bedroom.png" width="100%" height="200px" alt="shopdesk"/>
                         </div>
                     </div>
                     <div className="col-md-3 offset-sm-1 col-sm-12">
                         <br></br>
                         <div className="card" data-aos="flip-right">
-                            <img src="/images/cart.png" width="100%" height="380px" />
+                            <img src="/images/cart.png" width="100%" height="380px" alt="shopdesk"/>
                         </div>
                     </div>
                 </div>
@@ -82,12 +82,12 @@ function Shopdesk() {
                 <div className="row">
                     <div className="col-md-5 offset-sm-1 col-sm-12">
                         <div className="card" data-aos="zoom-in">
-                            <img src="/images/s4.png" width="100%" height="300px" />
+                            <img src="/images/s4.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-12">
                         <div className="card" data-aos="zoom-in">
-                            <img src="/images/s5.png" width="100%" height="300px" />
+                            <img src="/images/s5.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ function Shopdesk() {
                 <div className="row">
                     <div className="col-md-3 offset-sm-2 col-sm-12">
                         <div className="card" data-aos="flip-left">
-                            <img src="/images/s3.png" width="100%" height="350px" />
+                            <img src="/images/s3.png" width="100%" height="350px" alt="shopdesk"/>
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12">
@@ -110,7 +110,7 @@ function Shopdesk() {
                 <br></br><br></br>
                 <div className="col-md-8 offset-sm-2 col-sm-12">
                     <div className="card" data-aos="flip-down">
-                        <img src="/images/shop.png" width="100%" height="250px" />
+                        <img src="/images/shop.png" width="100%" height="250px" alt="shopdesk"/>
                     </div>
                 </div>
                 <br></br><br></br><br></br>
