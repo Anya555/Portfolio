@@ -21,7 +21,7 @@ function Shopdesk() {
 
             <div className="container">
                 <br></br><br></br>
-            <h1 className="ecommerce">E-commerce is the future</h1>
+            <h1 className="e">E-commerce is the future</h1>
             <br></br><br></br>
             
                 <div className="row">
@@ -33,7 +33,7 @@ function Shopdesk() {
                     </div>
                     <div className="col-md-6  col-sm-12">
 
-                        <div className="card" data-aos="zoom-in">
+                        <div className="card" data-aos="zoom-in" data-aos-once="true">
                             <img src="/images/s1.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function Shopdesk() {
                 <br></br><br></br><br></br><br></br>
                 <div className="row">
                     <div className="col-md-6 offset-sm-1 col-sm-12">
-                        <div className="card" data-aos="fade-right">
+                        <div className="card" data-aos="fade-right" data-aos-once="true">
                             <img src="/images/s2.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function Shopdesk() {
 
 
 
-                <h3 className="h3">We don't show our name on your website, so they only remember your unique brand</h3>
+                <h1>We don't show our name on your website, so they only remember your unique brand</h1>
                 <br></br><br></br>
                 <div className="row">
 
@@ -71,32 +71,32 @@ function Shopdesk() {
                     </div>
                     <div className="col-md-3 offset-sm-1 col-sm-12">
                         <br></br>
-                        <div className="card" data-aos="flip-right">
+                        <div className="card" data-aos="flip-right" data-aos-once="true">
                             <img src="/images/cart.png" width="100%" height="380px" alt="shopdesk"/>
                         </div>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
-                <h3 className="h3">Cloud based inventory management lets you keep track of your store from anywhere anytime </h3>
+                <h1>Cloud based inventory management lets you keep track of your store from anywhere anytime </h1>
                 <br></br><br></br><br></br><br></br>
                 <div className="row">
                     <div className="col-md-5 offset-sm-1 col-sm-12">
-                        <div className="card" data-aos="zoom-in">
+                        <div className="card" data-aos="zoom-in" data-aos-once="true">
                             <img src="/images/s4.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-12">
-                        <div className="card" data-aos="zoom-in">
+                        <div className="card" data-aos="zoom-in" data-aos-once="true">
                             <img src="/images/s5.png" width="100%" height="300px" alt="shopdesk"/>
                         </div>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
-                <h3 className="h3">Keeping user's information safe is our highest priority</h3>
+                <h1>Keeping user's information safe is our highest priority</h1>
                 <br></br><br></br>
                 <div className="row">
                     <div className="col-md-3 offset-sm-2 col-sm-12">
-                        <div className="card" data-aos="flip-left">
+                        <div className="card" data-aos="flip-left" data-aos-once="true">
                             <img src="/images/s3.png" width="100%" height="350px" alt="shopdesk"/>
                         </div>
                     </div>
@@ -106,10 +106,10 @@ function Shopdesk() {
                     </div>
                 </div>
                 <br></br><br></br><br></br>
-                <h3 className="h3">Don't get left behind</h3>
+                <h1>Don't get left behind</h1>
                 <br></br><br></br>
                 <div className="col-md-8 offset-sm-2 col-sm-12">
-                    <div className="card" data-aos="flip-down">
+                    <div className="card" data-aos="flip-down" data-aos-once="true">
                         <img src="/images/shop.png" width="100%" height="250px" alt="shopdesk"/>
                     </div>
                 </div>

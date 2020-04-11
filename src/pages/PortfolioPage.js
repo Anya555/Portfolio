@@ -51,19 +51,20 @@ class Portfolio extends Component {
             return (
 
                 <>
-                    <div className="col-md-4 offset-sm-1 col-sm-12">
+                    <div className="col-md-6 col-sm-12">
 
                         <div className="card portfolio-card" key={id} data-aos="fade-up">
 
                             <div className="img-container">
-                                <img src={image} className="portfolio-pic" alt="project"/>
-                                <h4 className="school">School Project</h4>
+                                <img src={image} className="portfolio-pic" alt="project" />
                                 <Button variant="outline-secondary" className="centered"><a href={address} className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
                             </div>
-
+                            <br></br>
                             <div className="content">
                                 <p className="description"> {description} </p>
+                              
                                 <Link to={link}>Learn more <FaGlasses className="glasses" /></Link>
+                               
                             </div>
                             <br></br>
 
@@ -90,26 +91,21 @@ class Portfolio extends Component {
             <>
 
                 <Navbar />
-                <br></br><br></br><br></br>
+                <br></br><br></br>
 
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
+                <h1 className="projects">PROJECTS</h1>
 
-                            <br></br>
 
-                            <div className="container">
-                                <div className="row">
+                <br></br><br></br>
+                    <div className="container">
+                        <div className="row">
 
-                                    {this.renderCardData()}
-
-                                </div>
-                            </div>
-
+                            {this.renderCardData()}
 
                         </div>
                     </div>
-                </div>
+
+              
                 <br></br> <br></br> <br></br>
                 <Footer />
 

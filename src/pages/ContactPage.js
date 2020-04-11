@@ -26,14 +26,21 @@ class ContactForm extends Component {
     handleSubmit(e) {
         e.preventDefault()
         
-          // email js  parameters
+        const { name, email, message } = this.state
 
-        const { name, email, subject, message } = this.state
+        // email validation 
+        if (/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email))  {
+            this.setState({validation: true})
+          } else {
+            this.setState({validation: false});
+            this.setState({errorMessage: 'Please enter correct email adress'})
+          }
+
+        // email js  parameters
         let templateParams = {
             name: name,
             from_name: email,
             to_name: 'gmail',
-            subject: subject,
             message_html: message,
         }
       
@@ -60,7 +67,6 @@ class ContactForm extends Component {
         this.setState({
             name: '',
             email: '',
-            subject: '',
             message: '',
         })
 
@@ -75,16 +81,17 @@ class ContactForm extends Component {
         return (
             <>
                 <Navbar />
-                <br></br>
+               
                
 
-                <div className="container">
+                <div className="container-fluid home">
+                <br></br>  <br></br>
                     <div className="row">
 
                         <div className="col-md-6 offset-sm-3 col-sm-12">
 
                         <FadeIn>
-                            <h4 className="getintouch">Please fill out a form to get in touch with me</h4>
+                            <h5 className="getintouch">Please fill out a form to get in touch with me</h5>
                          
                             <div className="card">
                                 <Form onSubmit={this.handleSubmit.bind(this)} className="form">
@@ -99,7 +106,7 @@ class ContactForm extends Component {
                                             value={this.state.email}
                                             className="text-primary"
                                             onChange={this.handleChange.bind(this, 'email')}
-                                            placeholder="Enter email"
+                                            placeholder="Email"
                                             required
                                         />
                                     </Form.Group>
@@ -116,20 +123,9 @@ class ContactForm extends Component {
                                         />
                                     </Form.Group>
 
-                                    <Form.Group controlId="formBasicSubject" className="contact">
-                                        <Form.Control
-                                            type="text"
-                                            name="subject"
-                                            className="text-primary"
-                                            value={this.state.subject}
-                                            onChange={this.handleChange.bind(this, 'subject')}
-                                            placeholder="Subject"
-                                            required
-                                        />
-                                    </Form.Group>
 
                                     <Form.Group controlId="exampleForm.ControlTextarea1" className="contact">
-                                        <Form.Control as="textarea" rows="6"
+                                        <Form.Control as="textarea" rows="7"
                                             placeholder="Message..."
                                             className="text-primary"
                                             value={this.state.message}
@@ -144,7 +140,7 @@ class ContactForm extends Component {
                                 </Button>
 
                                     </div>
-                                    <br></br><br></br>
+                                    <br></br>
 
                                 </Form>
                               
@@ -153,11 +149,10 @@ class ContactForm extends Component {
                         </div>
 
                     </div>
+                    <br></br><br></br>
                 </div>
 
-                <br></br>
-
-                <br></br>
+                
                 <Footer />
             </>
         );

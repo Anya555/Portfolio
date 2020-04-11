@@ -4,7 +4,6 @@ import React from "react";
 import Navbar from "../components/Navbar/index";
 import Image from 'react-bootstrap/Image';
 import Footer from '../components/Footer/index';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./aboutpage.css";
@@ -32,9 +31,10 @@ class Home extends React.Component {
             <>
                 <Navbar />
 
-                <br></br><br></br>
+              
 
                 <div className="container">
+                <br></br><br></br>
                     <div className="row">
                         <div className="col-4">
                             <hr></hr>
@@ -60,13 +60,12 @@ class Home extends React.Component {
 
                             <br></br>
 
-                            <p> I'm a <span className="stack">full-stack</span> web developer, passionate about creating dynamic web applications. I enjoy making responsive design, focusing on clean and intuitive UI. Most of my time is dedicated to  learning new technologies and writing clean efficient code.  I strongly believe that any success is all about persistence. </p>
-
+                            <p> I'm a <span className="stack">full-stack</span> developer, passionate about creating dynamic web applications. I love turning idea on a piece of paper into reality in form of a fully functional website. While always aiming to write DRY clean code, I have another passion for designing responsive applications with focus on intuitive UI/UX.   </p>
                         </div>
 
 
                         <div className="col-md-4 col-sm-12 img">
-                            <Image src="/images/mememe.jpg" roundedCircle width="230px" height="250px" alt="myself"/>
+                            <Image src="/images/mememe.jpg" roundedCircle width="240px" height="250px" alt="myself"/>
                         </div>
 
                         <div className="col-md-4 col-sm-12" data-aos="fade-left">
@@ -83,7 +82,7 @@ class Home extends React.Component {
                                 <DiMongodb className="mongo-icn" />
                                 <span className="express-icn"> express </span>
                                 <span> <FaReact className="react-icn" /> </span>
-                                <span>   <FaNodeJs className="node-icn" /> </span>
+                                <span>  <FaNodeJs className="node-icn" /> </span>
                             </div>
 
 
@@ -93,7 +92,7 @@ class Home extends React.Component {
                     <div className="row">
                         <div className="col-md-6 offset-sm-3">
                             <br></br><br></br><br></br>
-                            <h1 className="h1">My skills<FaLongArrowAltDown className="arrow" /> </h1>
+                            <h1 className="h1">my skills<FaLongArrowAltDown className="arrow" /> </h1>
                             <br></br>
 
                             {/* Skills chart */} 
@@ -158,21 +157,6 @@ class Home extends React.Component {
                                         data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "65%" }} ></div>
                                 </div>
 
-                                <br></br>
-                                <span className="label">BOOTSTRAP</span>
-                                <div className="progress">
-                                    <div className="progress-bar bootstrap" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "70%" }} ></div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">MUI</span>
-                                <div className="progress">
-                                    <div className="progress-bar mui" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "70%" }} ></div>
-                                </div>
-                                <br></br><br></br>
-                            
                             </div>
 
                     

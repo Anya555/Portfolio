@@ -1,50 +1,54 @@
 
 import React from 'react';
-// react-router
-import { Link } from "react-router-dom";
-// react - css animations
 import "./homepage.css";
-import styled, { keyframes } from "styled-components";
-import { pulse } from "react-animations";
+
 // react-bootstrap
-import { FaArrowRight } from 'react-icons/fa';
 import Footer from "../components/Footer/index";
 import Navbar from "../components/Navbar/index";
 
 
-const Pulse = styled.div`animation: 2s ${keyframes`${pulse}`} infinite`;
-
 
 function Home() {
-   
-     
-     
+
+
+
     return (
         <>
             <Navbar />
 
-            <div className="container-fluid">
+            <div className="container-fluid home">
                 <div className="row">
-                    <div className="col-12 home">
-                        <div className="card">
+                    <div className="col-12">
+                        <br></br><br></br><br></br><br></br><br></br>
 
-                            <img src="/images/code.png" height="500px" className="coding" alt="I love coding"/>
-                            <h1 className="hello">Hello, I'm Anna &</h1>
-                            <Link to="./AboutPage" style={{ textDecoration: 'none' }} className="get">
-                                <div>
-                                    <Pulse>
-                                        <h4 >Get to know what I do<span className="arrow"><FaArrowRight /></span></h4>
-                                    </Pulse>
-                                </div>
-                            </Link>
-
-
+                        <div className="row">
+                            <div className="col-md-4 offset-sm-5 col-sm-12">
+                                <h1 className="hello">Hello, I'm Anna &</h1>
+                            </div>
                         </div>
+
+                        <div className="row">
+
+                            <div className="col-md-1 offset-sm-1 col-sm-12">
+                                <br></br><br></br>
+                                <h1 className="coding cod">I</h1>
+                            </div>
+
+                            <div className="col-md-3  col-sm-12">
+                                <img src="/images/pizap.jpg" height="180px" className="show" />
+                            </div>
+                            <div className="col-md-1 offset-sm-1  col-sm-12">
+                                <br></br><br></br>
+                                <h1 className="coding">CODING</h1>
+                            </div>
+                        </div>
+                      
                     </div>
                 </div>
+               <br></br><br></br><br></br>
             </div>
 
-            
+
             <Footer />
         </>
     );

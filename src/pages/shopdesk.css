@@ -1,19 +1,15 @@
 
-.h3{
+.headline{
     font-family:'Titillium Web', sans-serif;
     font-weight: bold;
-    color: rgb(56, 13, 20);
-    font-style: initial;
-    text-decoration: underline;;
+    color: black;  
 }
 
 .p{
    font-family:'Titillium Web', sans-serif;
 }
 
-.ecommerce{
-    font-weight: bold;
-    color: rgb(109, 43, 54);
-    font-style: initial;
-    text-decoration: underline;;
+.e{
+    text-decoration: underline;
+
 }

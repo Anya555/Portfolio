@@ -14,16 +14,17 @@ function Bidbot() {
     return (
         <>
             <Navbar />
-            <br></br><br></br> <br></br><br></br>
+         
             <div className="container">
+            <br></br><br></br> <br></br><br></br>
                 <div className="row">
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-md-5 col-sm-12">
                         <br></br><br></br>
                         <p>Online auctions have  picked up and grown alongside the thriving digital world. They allow extreme convenience for bidders, as they don't have to leave their homes, but can instead just open up the browser and find their desired items. </p>
                     </div>
 
                     <div className="col-md-6 offset-sm-1 col-sm-12">
-                        <div className="card" data-aos="fade-left">
+                        <div className="card" data-aos="fade-left" data-aos-once="true">
                             <img src="/images/bot1.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
@@ -37,37 +38,32 @@ function Bidbot() {
                             <img src="/images/bid.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
-                    <div className="col-md-5  col-sm-12">
+                    <div className="col-md-5 offset-sm-1 col-sm-12">
                         <p>Just make yourself a cup of coffee and find your favorite pieces in different categories while still wearing pajamas</p>
-                        <div className="card" data-aos="fade-up">
+                        <div className="card" data-aos="fade-up" data-aos-once="true">
                             <img src="/images/biditems.png" width="100%" height="200px" alt="bidbot"/>
                         </div>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
-                <h3 className="h3">Start bidding once you found it </h3>
+                <h1>Start bidding once you found it </h1>
                 <br></br>
                 <div className="row">
-                    <div className="col-md-6 col-sm-12">
-                    <div className="card"  data-aos="fade-right">
-                            <img src="/images/b1.png" width="100%" height="300px" alt="bidbot"/>
-                        </div>
-                    </div>
-               
-                    <div className="col-md-6 col-sm-12">
-                    <div className="card" data-aos="fade-left">
+                 
+                    <div className="col-md-6 offset-sm-3 col-sm-12">
+                    <div className="card" data-aos="flip-down" data-aos-once="true">
                             <img src="/images/b2.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>
                     
                 </div>
                 <br></br><br></br><br></br>
-                <h3  className="h3">Not willing to buy, but have something to sell?</h3>
+                <h1>Not willing to buy, but have something to sell?</h1>
                 <br></br><br></br><br></br>
                 <div className="row">
                     <div className="col-md-5 offset-sm-1 col-sm-12">
                         <br></br><br></br><br></br>
-                    <p data-aos="zoom-out-down">Online auctions are  benefitial  to sellers, because sellers don't have to pay fees to hold an auction event in a certain location. Just post your item and make some extra cash <span className="arrow"><FaArrowRight /></span></p>
+                    <p data-aos="zoom-out-down" data-aos-once="true">Online auctions are  benefitial  to sellers, because sellers don't have to pay fees to hold an auction event in a certain location. Just post your item and make some extra cash <span className="arrow"><FaArrowRight /></span></p>
                     </div>
 
                     <div className="col-md-3 offset-sm-1 col-sm-12">

@@ -9,10 +9,10 @@ footer {
 .footer {
   bottom: 0;
   padding: 10px;
-  color:rgb(153, 27, 90);
+  color:#8658eb;
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: bolder;
+  
   font-size: larger;
   
 }
@@ -25,6 +25,7 @@ footer {
 .copy{
   color:#4AA69F;
   font-size: smaller;
+  font-weight: lighter;
 }
 
 
@@ -46,7 +47,7 @@ footer {
 }
 
 .like-icn:hover{
-  color:rgb(168, 34, 101)
+  color:#8658eb
 }
 
 .count{

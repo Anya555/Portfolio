@@ -21,15 +21,14 @@ p{
 }
 
 .coder{
-  font-size: large;
+  font-size: x-large;
   font-weight: bold;
   color:  rgb(68, 20, 18);
-  font-size:large;
  font-family: 'Titillium Web', sans-serif;
 }
 
 .bracket{
-  font-size: xx-large;
+  font-size:xx-large;
 }
 
 .code, .mern{
@@ -99,6 +98,7 @@ h1{
 
 .progress-bar {  
   background-color: rgb(186, 193, 194);
+  border-radius: 0mm ;
 }
 
 .label{
@@ -110,14 +110,14 @@ h1{
   font-family: 'Titillium Web', sans-serif;
   float:left;
   height: 28px;
-  border-radius: 0mm;
+  border-radius: 1mm 0mm 0mm 1mm;
   font-size: smaller;
   line-height: 1.5rem;
 }
 
 .progress{
   height: 28px;
-  border-radius: 0mm;
+  border-radius: 0mm 1mm 1mm 0mm;
 }
 
 
