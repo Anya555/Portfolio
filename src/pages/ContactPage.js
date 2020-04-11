@@ -19,7 +19,6 @@ class ContactForm extends Component {
     state = {
         name: '',
         email: '',
-        subject: '',
         message: '',
     }
 
