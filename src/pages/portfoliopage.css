@@ -62,6 +62,7 @@ a:hover
 .address{
     color:#4AA69F;
     font-size: xx-large;
+    line-height: 1.5rem;
 }
 
 .portfolio-card{
@@ -69,7 +70,6 @@ a:hover
 }
 .address:hover{
     color:#4AA69F;
-
 }
 .centered:hover{
     background-color: white;
