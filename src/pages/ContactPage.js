@@ -39,8 +39,7 @@ class ContactForm extends Component {
         // email js  parameters
         let templateParams = {
             name: name,
-            from_name: email,
-            to_name: 'gmail',
+            email: email,
             message_html: message,
         }
       
