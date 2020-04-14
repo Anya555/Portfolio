@@ -56,7 +56,7 @@ class Portfolio extends Component {
 
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" alt="project" />
-                                <Button variant="link" className="centered"><a href={address}  target="_blank" className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
+                                <Button variant="link" className="centered"><a href={address}  target="_blank" rel="noopener noreferrer" className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
                             </div>
                             <br></br>
                             <div className="content">

@@ -4,6 +4,7 @@
     position:right;
     font-size: x-large;
     font-weight: bold;
+    text-align: center;
 }
 
 .nav-link:hover{
