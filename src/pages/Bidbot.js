@@ -46,7 +46,7 @@ function Bidbot() {
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
-                <h1>Start bidding once you found it </h1>
+                <h2>Start bidding once you found it </h2>
                 <br></br>
                 <div className="row">
                  
@@ -58,7 +58,7 @@ function Bidbot() {
                     
                 </div>
                 <br></br><br></br><br></br>
-                <h1>Not willing to buy, but have something to sell?</h1>
+                <h2>Not willing to buy, but have something to sell?</h2>
                 <br></br><br></br><br></br>
                 <div className="row">
                     <div className="col-md-5 offset-sm-1 col-sm-12">

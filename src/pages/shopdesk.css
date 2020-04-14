@@ -3,6 +3,14 @@
    font-family:'Titillium Web', sans-serif;
 }
 
-.e{
-    text-decoration: underline;
+
+h2{
+    font-family: 'Clarkson',Helvetica,sans-serif;
+    text-transform: uppercase;
+    font-size:large;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    text-align: center;
 }

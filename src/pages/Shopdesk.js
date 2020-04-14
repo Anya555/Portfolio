@@ -17,36 +17,42 @@ function Shopdesk() {
 
         <>
             <Navbar />
-          
+
 
             <div className="container">
                 <br></br><br></br>
-            <h1 className="e">E-commerce is the future</h1>
-            <br></br><br></br>
-            
+
+                <div className="row">
+                    <div className="col-12">
+                       
+                            <h2>E-commerce is the future</h2>
+                    
+                    </div>
+                </div>
+                <br></br><br></br><br></br>
                 <div className="row">
 
-                    <div className="col-md-4 offset-sm-1 col-sm-12">
+                    <div className="col-md-5 col-sm-12">
                         <br></br><br></br><br></br>
-                           <p className="p"> It's growing five times faster than retail. Small businesses can't keep up being forced to lose out on sales or accept fees and brand dilution by selling their products on Amazon. </p>
+                        <p className="p"> It's growing five times faster than retail. Small businesses can't keep up being forced to lose out on sales or accept fees and brand dilution by selling their products on Amazon. </p>
 
                     </div>
-                    <div className="col-md-6  col-sm-12">
+                    <div className="col-md-6 offset-sm-1 col-sm-12">
 
                         <div className="card" data-aos="zoom-in" data-aos-once="true">
-                            <img src="/images/s1.png" width="100%" height="300px" alt="shopdesk"/>
+                            <img src="/images/s1.png" width="100%" height="300px" alt="shopdesk" />
                         </div>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
                 <div className="row">
-                    <div className="col-md-6 offset-sm-1 col-sm-12">
+                    <div className="col-md-6 col-sm-12">
                         <div className="card" data-aos="fade-right" data-aos-once="true">
-                            <img src="/images/s2.png" width="100%" height="300px" alt="shopdesk"/>
+                            <img src="/images/s2.png" width="100%" height="300px" alt="shopdesk" />
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-sm-12">
+                    <div className="col-md-6  col-sm-12">
                         <br></br><br></br><br></br>
                         <p className="p">Small businesses can't compete with giants like Amazon and Wallmart</p>
                     </div>
@@ -56,48 +62,48 @@ function Shopdesk() {
 
 
 
-                <h1>We don't show our name on your website, so they only remember your unique brand</h1>
+                <h2>We don't show our name on your website, so they only remember your unique brand</h2>
                 <br></br><br></br>
                 <div className="row">
 
                     <div className="col-md-6 offset-sm-1 col-sm-12">
                         <div className="card" >
-                            <img src="/images/shopdesk.png" width="100%" height="200px" alt="shopdesk"/>
+                            <img src="/images/shopdesk.png" width="100%" height="200px" alt="shopdesk" />
                         </div>
                         <br></br>
                         <div className="card" >
-                            <img src="/images/bedroom.png" width="100%" height="200px" alt="shopdesk"/>
+                            <img src="/images/bedroom.png" width="100%" height="200px" alt="shopdesk" />
                         </div>
                     </div>
                     <div className="col-md-3 offset-sm-1 col-sm-12">
                         <br></br>
                         <div className="card" data-aos="flip-right" data-aos-once="true">
-                            <img src="/images/cart.png" width="100%" height="380px" alt="shopdesk"/>
+                            <img src="/images/cart.png" width="100%" height="380px" alt="shopdesk" />
                         </div>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
-                <h1>Cloud based inventory management lets you keep track of your store from anywhere anytime </h1>
+                <h2>Cloud based inventory management lets you keep track of your store from anywhere anytime </h2>
                 <br></br><br></br><br></br><br></br>
                 <div className="row">
                     <div className="col-md-5 offset-sm-1 col-sm-12">
                         <div className="card" data-aos="zoom-in" data-aos-once="true">
-                            <img src="/images/s4.png" width="100%" height="300px" alt="shopdesk"/>
+                            <img src="/images/s4.png" width="100%" height="300px" alt="shopdesk" />
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-12">
                         <div className="card" data-aos="zoom-in" data-aos-once="true">
-                            <img src="/images/s5.png" width="100%" height="300px" alt="shopdesk"/>
+                            <img src="/images/s5.png" width="100%" height="300px" alt="shopdesk" />
                         </div>
                     </div>
                 </div>
                 <br></br><br></br><br></br><br></br>
-                <h1>Keeping user's information safe is our highest priority</h1>
+                <h2>Keeping user's information safe is our highest priority</h2>
                 <br></br><br></br>
                 <div className="row">
                     <div className="col-md-3 offset-sm-2 col-sm-12">
                         <div className="card" data-aos="flip-left" data-aos-once="true">
-                            <img src="/images/s3.png" width="100%" height="350px" alt="shopdesk"/>
+                            <img src="/images/s3.png" width="100%" height="350px" alt="shopdesk" />
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12">
@@ -106,11 +112,11 @@ function Shopdesk() {
                     </div>
                 </div>
                 <br></br><br></br><br></br>
-                <h1>Don't get left behind</h1>
+                <h2>Don't get left behind</h2>
                 <br></br><br></br>
                 <div className="col-md-8 offset-sm-2 col-sm-12">
                     <div className="card" data-aos="flip-down" data-aos-once="true">
-                        <img src="/images/shop.png" width="100%" height="250px" alt="shopdesk"/>
+                        <img src="/images/shop.png" width="100%" height="250px" alt="shopdesk" />
                     </div>
                 </div>
                 <br></br><br></br><br></br>

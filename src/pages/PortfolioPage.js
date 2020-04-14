@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import Button from 'react-bootstrap/Button';
 // icons/css/animations
-import { FaGlasses } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
 import './portfoliopage.css';
 import AOS from 'aos';
@@ -57,16 +56,16 @@ class Portfolio extends Component {
 
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" alt="project" />
-                                <Button variant="link" className="centered"><a href={address} className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
+                                <Button variant="link" className="centered"><a href={address}  target="_blank" className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
                             </div>
                             <br></br>
                             <div className="content">
                                 <p className="description"> {description} </p>
                               
-                                <Link to={link}>Learn more <FaGlasses className="glasses" /></Link>
-                               
+                                <Link to={link} className="learn" >Learn more </Link>
+                                <br></br><br></br>
                             </div>
-                            <br></br>
+                           
 
 
                         </div>
@@ -93,7 +92,7 @@ class Portfolio extends Component {
                 <Navbar />
                 <br></br><br></br>
 
-                <h1 className="projects">PROJECTS</h1>
+                <h2 className="projects">PROJECTS</h2>
 
 
                 <br></br><br></br>

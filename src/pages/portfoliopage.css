@@ -8,7 +8,7 @@
 
 h5{
     padding-left:10px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Clarkson',Helvetica,sans-serif;;
     font-weight: bolder;
     color: black;
     text-align: left;
@@ -17,27 +17,20 @@ h5{
 
 .description{
     padding-left:10px;
-    font-family: 'Titillium Web', sans-serif;
-    color:  #898e94;
+    font-family: 'Clarkson',Helvetica,sans-serif;;
+    color:  #5f6061;
     text-align: left;
 }
 
-.glasses{
-    padding-left: 10px;
-    font-size: x-large;
-    color:black
-}
-
-
-a {
+.learn {
     all: unset;
-    font-family:'Titillium Web', sans-serif;
+    font-family:'Clarkson',Helvetica,sans-serif;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #1b242f;
-    font-size: larger;
+    text-transform: uppercase;
 }
 
 
@@ -104,3 +97,6 @@ a:hover
     font-size: smaller;
 }
 
+.projects{
+    font-size: x-large;
+}
