@@ -6,26 +6,6 @@ import { FacebookProvider, Like } from 'react-facebook';
 
 function Footer() {
 
-  // const [
-  //   count,
-  //   setCount
-  // ] = useState(0, "count");
-
-  // // storing likes count
-  // function useState(defaultValue, key) {
-  //   const [value, setValue] = React.useState(() => {
-  //     const keyValue = window.localStorage.getItem(key);
-  //     return keyValue !== null
-  //       ? JSON.parse(keyValue)
-  //       : defaultValue;
-  //   });
-  //   React.useEffect(() => {
-  //     window.localStorage.setItem(key, JSON.stringify(value));
-  //   }, [key, value]);
-  //   return [value, setValue];
-  // }
-
-
   return (
     <div className="container-fluid">
       <div className="row">
@@ -37,17 +17,15 @@ function Footer() {
 
             <div className="footer">
 
-              {/* <AiOutlineLike className="like-icn" onClick={() => setCount(count + 1)} /> <span className="count"> Likes: {count}</span> */}
-
               <div className="row">
-                <div className="col-md-3">
+                <div className="col-md-4 offset-sm-2">
 
                   <FacebookProvider appId="221365929122472">
                     <Like href="http://www.codingwithanya.com/.com" layout="button_count" />
                   </FacebookProvider>
                   </div>
-                  <div className="col-md-3 offset-sm-2">
-                  <span className="copy"> Anna Panas ©2020</span>
+                  <div className="col-md-4 offset-sm-2">
+                  <span className="copy"> Anna Panas <span className="copyright">©2020</span></span>
                 </div>
               </div>
             </div>

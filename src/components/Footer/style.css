@@ -19,11 +19,14 @@ footer {
 }
 
 .copy{
-  color:#4AA69F;
+  color:#5c80c9;
   font-size: smaller;
-  font-weight: lighter;
+
 }
 
+.copyright{
+  color:rgb(226, 222, 222)
+}
 
 .like{
   float: left;
