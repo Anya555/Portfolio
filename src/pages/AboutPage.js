@@ -65,7 +65,7 @@ class Home extends React.Component {
 
 
                         <div className="col-md-4 col-sm-12 img">
-                            <Image src="/images/mememe.jpg" roundedCircle width="240px" height="250px" alt="myself"/>
+                            <Image src="/images/am.jpg" roundedCircle width="260px" height="250px" alt="myself"/>
                         </div>
 
                         <div className="col-md-4 col-sm-12" data-aos="fade-left">

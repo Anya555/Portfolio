@@ -3,18 +3,14 @@ footer {
   width:100%;
   bottom: 0; 
   background-color: #1b242f;
- 
 }
 
 .footer {
   bottom: 0;
-  padding: 10px;
+  padding: 15px;
   color:#8658eb;
-  text-align: center;
   font-family: 'Titillium Web', sans-serif;
-  
   font-size: larger;
-  
 }
 
 .foot{
@@ -27,7 +23,6 @@ footer {
   font-size: smaller;
   font-weight: lighter;
 }
-
 
 
 .like{
@@ -57,3 +52,12 @@ footer {
   font-size: large;
 }
 
+ 
+
+ @media only screen and (max-width: 600px) {
+  .copy{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+}

@@ -5,7 +5,7 @@ import "./homepage.css";
 // react-bootstrap
 import Footer from "../components/Footer/index";
 import Navbar from "../components/Navbar/index";
-
+import Image from 'react-bootstrap/Image';
 
 
 function Home() {
@@ -29,15 +29,15 @@ function Home() {
 
                         <div className="row">
 
-                            <div className="col-md-1 offset-sm-1 col-sm-12">
+                            <div className="col-md-2 col-sm-12">
                                 <br></br><br></br>
                                 <h1 className="coding cod">I</h1>
                             </div>
 
-                            <div className="col-md-3  col-sm-12">
-                                <img src="/images/pizap.jpg" height="180px" className="show" />
+                            <div className="col-md-4  col-sm-12">
+                                <Image src="/images/pizap.jpg"  fluid />
                             </div>
-                            <div className="col-md-1 offset-sm-1  col-sm-12">
+                            <div className="col-md-1  col-sm-12">
                                 <br></br><br></br>
                                 <h1 className="coding">CODING</h1>
                             </div>
