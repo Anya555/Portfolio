@@ -20,7 +20,10 @@ function Shopdesk() {
 
 
             <div className="container">
-                <br></br><br></br>
+                <br></br>
+                <h6 className="projectInfo">#School group project built on Node.js, Express, Handlebars, MySQL#</h6>
+                <li className="min"> 4 min read</li>
+                <br></br>
 
                 <div className="row">
                     <div className="col-12">
@@ -29,7 +32,7 @@ function Shopdesk() {
                     
                     </div>
                 </div>
-                <br></br><br></br><br></br>
+                <br></br><br></br>
                 <div className="row">
 
                     <div className="col-md-5 col-sm-12">
@@ -40,7 +43,7 @@ function Shopdesk() {
                     <div className="col-md-6 offset-sm-1 col-sm-12">
 
                         <div className="card" data-aos="zoom-in" data-aos-once="true">
-                            <img src="/images/s1.png" width="100%" height="300px" alt="shopdesk" />
+                            <img src="/images/s1.png" width="100%" height="280px" alt="shopdesk" />
                         </div>
                     </div>
                 </div>
@@ -48,7 +51,7 @@ function Shopdesk() {
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="card" data-aos="fade-right" data-aos-once="true">
-                            <img src="/images/s2.png" width="100%" height="300px" alt="shopdesk" />
+                            <img src="/images/s2.png" width="100%" height="280px" alt="shopdesk" />
                         </div>
                     </div>
 
