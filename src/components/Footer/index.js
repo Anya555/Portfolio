@@ -13,7 +13,7 @@ function Footer() {
           <footer className="page-footer">
 
 
-            <ScrollUpButton style={{ backgroundColor: "#4AA69F", height: "38px", width: "38px" }} />
+            <ScrollUpButton style={{ backgroundColor: "#4AA69F", height: "42px", width: "38px" }} />
 
             <div className="footer">
 

@@ -17,7 +17,7 @@ function Bidbot() {
          
             <div className="container">
             <br></br><br></br> 
-            <h6 className="projectInfo">#School group project built on MongoDB, Express, React.js, Node.js#</h6>
+            <h6 className="projectInfo">#School group project built with MongoDB, Express, React.js, Node.js#</h6>
                 <li className="min"> 5 min read</li><br></br><br></br>
                 <div className="row">
                     <div className="col-md-5 col-sm-12">

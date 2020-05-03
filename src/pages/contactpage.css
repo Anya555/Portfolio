@@ -3,14 +3,17 @@
     background-color:lightgray;
     padding-left:10px;
     padding-right:10px;
-    border-radius: 0.5ex;
+    padding-bottom: 10px;
 }
 
 .submit{
-   width:100%;
+   float:right;
    background-color: #1b242f;
    border-color: #1b242f;
    color:#4AA69F;
+   text-transform: uppercase;
+   font-size: small;
+   border-radius: 0;
 }
 
 .submit:hover{
@@ -30,9 +33,10 @@
    color:#4AA69F;
    padding-top:15px;
    padding-bottom: 15px;
-   border-radius: 0.5ex;
    text-align: center;
    font-weight: lighter;
+   text-transform: uppercase;
+   font-size: medium;
 }
 
 input, textarea{

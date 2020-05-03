@@ -89,7 +89,7 @@ class ContactForm extends Component {
                         <div className="col-md-6 offset-sm-3 col-sm-12">
 
                         <FadeIn>
-                            <h5 className="getintouch">Please fill out a form to get in touch with me</h5>
+                            <h5 className="getintouch">Please fill out a form to contact me</h5>
                          
                             <div className="card">
                                 <Form onSubmit={this.handleSubmit.bind(this)} className="form">

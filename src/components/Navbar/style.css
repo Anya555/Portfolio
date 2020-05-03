@@ -1,10 +1,11 @@
 .nav-link {
-    color: rgb(87, 50, 73) !important;
+    color: black !important;
     font-family:  'Titillium Web', sans-serif;
     position:right;
-    font-size: x-large;
+    font-size:medium;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .nav-link:hover{
@@ -22,7 +23,7 @@
 
 .nav2{
     background-color: #1b242f;
-    border-bottom: 3px solid #8658eb;
+    border-bottom: 3px solid #4AA69F;
 }
 
 .navbar-toggler{

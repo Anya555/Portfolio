@@ -2,15 +2,14 @@
  .hello {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: bold;
-	font-size: 350%;
-	color: rgb(70, 41, 59);
+	font-size: 250%;
+	color: black;
   }
 
 .home{
 	background-color: rgb(236, 235, 235);
 	padding-left: 15px;
 	padding-right: 15px;
-	
 }
 
   .coding{

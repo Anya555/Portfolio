@@ -40,14 +40,14 @@ class Home extends React.Component {
                             <hr></hr>
                         </div>
                         <div className="col-4">
-                            <h4>read<span className="text-black">m</span>e</h4>
+                            <h4 className="readme">readme</h4>
                         </div>
                         <div className="col-4">
                             <hr></hr>
                         </div>
                     </div>
 
-                    <br></br>
+                    <br></br><br></br>
 
                     <div className="row">
 
@@ -60,7 +60,7 @@ class Home extends React.Component {
 
                             <br></br>
 
-                            <p> I'm a <span className="stack">full-stack</span> developer, passionate about creating dynamic web applications. I love turning idea on a piece of paper into reality in form of a fully functional website. While always aiming to write DRY clean code, I have another passion for designing responsive applications with focus on intuitive UI/UX.   </p>
+                            <p> I'm a <span className="stack">full-stack</span> developer, passionate about creating dynamic web applications. I love turning idea on a piece of paper into a fully functional website. While always aiming to write DRY clean code, I have another passion for designing responsive applications with focus on intuitive UI/UX.   </p>
                         </div>
 
 
@@ -76,8 +76,8 @@ class Home extends React.Component {
                                 <FaAngleRight className="bracket" /></span>
                             <br></br>
 
-                            <p>Recent graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University. During the program I learned how to develop end-to-end web applications using modern coding tools and libraries, as well as delivering high quality code. </p>
-                            <br></br>
+                            <p>Graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University, where I learned how to develop end-to-end web applications using modern coding tools and libraries and delivering high quality code. </p>
+                           
                             <div className="mern">
                                 <DiMongodb className="mongo-icn" />
                                 <span className="express-icn"> express </span>

@@ -21,7 +21,7 @@ function Shopdesk() {
 
             <div className="container">
                 <br></br>
-                <h6 className="projectInfo">#School group project built on Node.js, Express, Handlebars, MySQL#</h6>
+                <h6 className="projectInfo">#School group project built with Node.js, Express, Handlebars, MySQL#</h6>
                 <li className="min"> 4 min read</li>
                 <br></br>
 

@@ -19,11 +19,17 @@ function Home() {
             <div className="container-fluid home">
                 <div className="row">
                     <div className="col-12">
-                        <br></br><br></br><br></br><br></br><br></br>
+                        <br></br><br></br><br></br><br></br>
 
                         <div className="row">
-                            <div className="col-md-4 offset-sm-5 col-sm-12">
-                                <h1 className="hello">Hello, I'm Anna &</h1>
+                            <div className="col-md-5 offset-sm-5 col-sm-12">
+                                <h1 className="hello">Hello I'm Anna,</h1>
+                                <br></br>
+                                <h2>I'm a full stack web developer</h2>
+                                <br></br> 
+                                <h1 className="hello">&</h1>
+                          
+                                
                             </div>
                         </div>
 

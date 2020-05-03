@@ -22,19 +22,25 @@ class Portfolio extends Component {
 
                 {
                     "id": 1,
-                    "image": "/images/shop1.png",
+                    "image": "/images/shopdesk.png",
                     "description": "Ecommerce platform ",
                     "address": "https://guarded-brook-11312.herokuapp.com/",
                     "link": "./Shopdesk"
                 },
                 {
                     "id": 2,
-                    "image": "/images/bot2.png",
-                    "description": "Online auction website",
+                    "image": "/images/bid.png",
+                    "description": "Online auction",
                     "address": "https://bidbot-auction.herokuapp.com/",
                     "link": "./Bidbot"
+                },
+                {
+                    "id": 3,
+                    "image": "/images/weather.png",
+                    "description": "Online weather forecast",
+                    "address": "https://anya555.github.io/WeatherDashborad/",
+                    "link": "./WeatherDashboard"
                 }
-
             ]
 
         }
@@ -50,22 +56,21 @@ class Portfolio extends Component {
             return (
 
                 <>
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-4 col-sm-12">
 
                         <div className="card portfolio-card" key={id} data-aos="fade-up">
 
                             <div className="img-container">
                                 <img src={image} className="portfolio-pic" alt="project" />
-                                <Button variant="link" className="centered"><a href={address}  target="_blank" rel="noopener noreferrer" className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
+                                <Button variant="link" className="centered"><a href={address} target="_blank" rel="noopener noreferrer" className="address">Visit website<span className="arrow2"><FaArrowRight /></span></a></Button>
                             </div>
                             <br></br>
                             <div className="content">
                                 <p className="description"> {description} </p>
-                              
+                                <br></br>
                                 <Link to={link} className="learn" >Learn more </Link>
                                 <br></br><br></br>
                             </div>
-                           
 
 
                         </div>
@@ -95,17 +100,17 @@ class Portfolio extends Component {
                 <h2 className="projects">PROJECTS</h2>
 
 
-                <br></br><br></br>
-                    <div className="container">
-                        <div className="row">
+                <br></br><br></br><br></br>
+                <div className="container">
+                    <div className="row">
 
-                            {this.renderCardData()}
+                        {this.renderCardData()}
 
-                        </div>
                     </div>
+                </div>
 
-              
-                <br></br> <br></br> <br></br>
+
+                <br></br> <br></br> <br></br> <br></br>
                 <Footer />
 
             </>

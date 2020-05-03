@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Shopdesk from "./pages/Shopdesk";
 import Bidbot from "./pages/Bidbot";
+import WeatherDashboard from "./pages/WeatherDashboard"
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
       </Route>
       <Route exact path="/Bidbot">
         <Bidbot />
+      </Route>
+      <Route exact path="/WeatherDashboard">
+        <WeatherDashboard />
       </Route>
     </Switch>
   </div>
