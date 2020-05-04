@@ -15,9 +15,22 @@
   .coding{
 	font-weight: bold;
 	font-size: 450%;
-
   }
 
+  .web{
+	font-weight: bold;
+	color:#4AA69F;
+  }
 
-
+  .knowme{
+	  float:right;
+	  border-color:#4AA69F;
+	  border-radius: 0;
+	  color:black;
+	  text-transform: uppercase;
+  }
  
+  .knowme:hover{
+	  background-color:darkgray;
+	  border-color:#4AA69F;
+  }

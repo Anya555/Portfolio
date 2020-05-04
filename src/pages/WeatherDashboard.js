@@ -41,7 +41,7 @@ function Weather() {
 
                 <div className="row">
                     <div className="col-md-6  col-sm-12">
-                        <div className="card">
+                        <div className="card"  data-aos="flip-down" data-aos-once="true">
                             <img src="/images/weather.png" width="100%" height="300px" alt="bidbot"/>
                         </div>
                     </div>

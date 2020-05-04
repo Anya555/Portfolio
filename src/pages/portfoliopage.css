@@ -63,6 +63,7 @@ a:hover
 
 .portfolio-card{
     height: fixed;
+    padding: 5px
 }
 .address:hover{
     color:#4AA69F;
