@@ -1,56 +1,60 @@
 .nav-link {
-    color: black !important;
-    font-family:  'Titillium Web', sans-serif;
-    position:right;
-    font-size:medium;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
+  color: black !important;
+  font-family: "Titillium Web", sans-serif;
+  position: right;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.nav-link:hover{
-    opacity:0.5
+.nav-link:hover {
+  opacity: 0.5;
 }
 
-.nav-item{
-    padding-right:10px
+.nav-item {
+  padding-right: 10px;
 }
 
-.about{
-    text-decoration: underline;
-    color:#4AA69F
+.about {
+  text-decoration: underline;
+  color: #4aa69f;
 }
 
-.nav2{
-    background-color: #1b242f;
-    border-bottom: 3px solid #4AA69F;
+.nav2 {
+  background-color: #1b242f;
+  border-bottom: 3px solid #4aa69f;
 }
 
-.navbar-toggler{
-    background-color: black;
+.navbar-toggler {
+  background-color: black;
 }
 
-.menu{
-    color:#4AA69F
+.menu {
+  color: #4aa69f;
 }
 
-.linkedin{
-    font-size: xx-large;
-    color: #4AA69F;
-    padding-right:10px
+.linkedin {
+  font-size: xx-large;
+  color: #4aa69f;
+  padding-right: 10px;
 }
 
-.linkedin:hover{
-    opacity: 0.5;
+.linkedin:hover {
+  opacity: 0.5;
 }
 
-.github{
-    font-size: x-large;
-    color: black;
+.github {
+  font-size: xx-large;
+  color: black;
+  padding-right: 10px;
 }
 
-.github:hover{
-    opacity: 0.5;
+.github:hover {
+  opacity: 0.5;
 }
 
- 
+.mail {
+  font-size: x-large;
+  color: #4aa69f;
+}
