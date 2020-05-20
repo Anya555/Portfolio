@@ -1,29 +1,27 @@
-
-.p{
-   font-family:'Titillium Web', sans-serif;
+.p {
+  font-family: "Titillium Web", sans-serif;
 }
 
-
-h2{
-    font-family: 'Clarkson',Helvetica,sans-serif;
-    text-transform: uppercase;
-    font-size:large;
-    border-bottom: 1px solid black;
-    width: fit-content;
-    padding-bottom: 5px;
-    margin: 0 auto;
-    text-align: center;
+h2 {
+  font-family: "Clarkson", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: large;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.projectInfo{
-    background-color: lightgray;
-    color:black;
-    font-family: 'Clarkson',Helvetica,sans-serif;
-    text-transform: uppercase;
-    padding:5px;
-    width:fit-content
+.projectInfo {
+  background-color: lightgray;
+  color: black;
+  font-family: "Clarkson", Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 5px;
+  width: fit-content;
 }
 
-.min{
-    color: rgb(112, 108, 108);
+.min {
+  color: rgb(112, 108, 108);
 }
