@@ -129,7 +129,7 @@ function Shopdesk() {
         <br></br>
         <h2>
           Cloud based inventory management lets you keep track of your store
-          from anywhere anytime{" "}
+          from anywhere anytime.
         </h2>
         <br></br>
         <br></br>
