@@ -2,173 +2,232 @@ import React from "react";
 
 // react-bootstrap
 import Navbar from "../components/Navbar/index";
-import Image from 'react-bootstrap/Image';
-import Footer from '../components/Footer/index';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Image from "react-bootstrap/Image";
+import Footer from "../components/Footer/index";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./aboutpage.css";
 
 // react-icons
 
-import { FaAngleLeft } from 'react-icons/fa';
-import { FaAngleRight } from 'react-icons/fa';
-import { DiMongodb } from 'react-icons/di';
-import { FaNodeJs } from 'react-icons/fa';
-import { FaReact } from 'react-icons/fa';
-import { FaLongArrowAltDown } from 'react-icons/fa';
-
+import { FaAngleLeft } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaLongArrowAltDown } from "react-icons/fa";
 
 class Home extends React.Component {
+  render() {
+    AOS.init({
+      duration: 1200,
+    });
 
-    render() {
+    return (
+      <>
+        <Navbar />
 
-        AOS.init({
-            duration: 1200,
-        })
+        <div className="container">
+          <br></br>
+          <br></br>
+          <div className="row">
+            <div className="col-4">
+              <hr></hr>
+            </div>
+            <div className="col-4">
+              <h4 className="readme">readme</h4>
+            </div>
+            <div className="col-4">
+              <hr></hr>
+            </div>
+          </div>
 
+          <br></br>
+          <br></br>
 
-        return (
-            <>
-                <Navbar />
+          <div className="row">
+            <div className="col-md-4 col-sm-12" data-aos="fade-right">
+              <br></br>
 
-              
+              <span className="code">
+                <FaAngleLeft className="bracket" />
+                <span className="coder">coder</span>
+                <FaAngleRight className="bracket" />
+              </span>
 
-                <div className="container">
-                <br></br><br></br>
-                    <div className="row">
-                        <div className="col-4">
-                            <hr></hr>
-                        </div>
-                        <div className="col-4">
-                            <h4 className="readme">readme</h4>
-                        </div>
-                        <div className="col-4">
-                            <hr></hr>
-                        </div>
-                    </div>
+              <br></br>
 
-                    <br></br><br></br>
+              <p>
+                {" "}
+                I'm a <span className="stack">full-stack</span> developer,
+                passionate about creating dynamic web applications. I love
+                turning idea on a piece of paper into a fully functional
+                website. While always aiming to write DRY clean code, I have
+                another passion for designing responsive applications with focus
+                on intuitive UI/UX.{" "}
+              </p>
+            </div>
 
-                    <div className="row">
+            <div className="col-md-4 col-sm-12 img">
+              <Image
+                src="/images/am.jpg"
+                roundedCircle
+                width="260px"
+                height="250px"
+                alt="myself"
+              />
+            </div>
 
-                        <div className="col-md-4 col-sm-12" data-aos="fade-right">
-                            <br></br>
+            <div className="col-md-4 col-sm-12" data-aos="fade-left">
+              <br></br>
+              <span className="code">
+                <FaAngleLeft className="bracket" />
+                <span className="coder">background</span>
+                <FaAngleRight className="bracket" />
+              </span>
+              <br></br>
 
-                            <span className="code"><FaAngleLeft className="bracket" />
-                                <span className="coder">coder</span>
-                                <FaAngleRight className="bracket" /></span>
+              <p>
+                Graduate of <span className="stack"> MERN</span> stack Bootcamp
+                at George Washington University, where I learned how to develop
+                end-to-end web applications using modern coding tools and
+                libraries and delivering high quality code.{" "}
+              </p>
 
-                            <br></br>
+              <div className="mern">
+                <DiMongodb className="mongo-icn" />
+                <span className="express-icn"> express </span>
+                <span>
+                  {" "}
+                  <FaReact className="react-icn" />{" "}
+                </span>
+                <span>
+                  {" "}
+                  <FaNodeJs className="node-icn" />{" "}
+                </span>
+              </div>
+            </div>
+          </div>
 
-                            <p> I'm a <span className="stack">full-stack</span> developer, passionate about creating dynamic web applications. I love turning idea on a piece of paper into a fully functional website. While always aiming to write DRY clean code, I have another passion for designing responsive applications with focus on intuitive UI/UX.   </p>
-                        </div>
+          <div className="row">
+            <div className="col-md-6 offset-sm-3">
+              <br></br>
+              <br></br>
+              <br></br>
+              <h1 className="h1">
+                my skills
+                <FaLongArrowAltDown className="arrow" />{" "}
+              </h1>
+              <br></br>
 
+              {/* Skills chart */}
 
-                        <div className="col-md-4 col-sm-12 img">
-                            <Image src="/images/am.jpg" roundedCircle width="260px" height="250px" alt="myself"/>
-                        </div>
-
-                        <div className="col-md-4 col-sm-12" data-aos="fade-left">
-
-                            <br></br>
-                            <span className="code"><FaAngleLeft className="bracket" />
-                                <span className="coder">background</span>
-                                <FaAngleRight className="bracket" /></span>
-                            <br></br>
-
-                            <p>Graduate of <span className="stack"> MERN</span> stack Bootcamp at George Washington University, where I learned how to develop end-to-end web applications using modern coding tools and libraries and delivering high quality code. </p>
-                           
-                            <div className="mern">
-                                <DiMongodb className="mongo-icn" />
-                                <span className="express-icn"> express </span>
-                                <span> <FaReact className="react-icn" /> </span>
-                                <span>  <FaNodeJs className="node-icn" /> </span>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-md-6 offset-sm-3">
-                            <br></br><br></br><br></br>
-                            <h1 className="h1">my skills<FaLongArrowAltDown className="arrow" /> </h1>
-                            <br></br>
-
-                            {/* Skills chart */} 
-
-                            <div className="skills">
-
-                            <div className="label">HTML</div>
-                                <div className="progress">
-                                    <div  className="progress-bar html"  data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"  
-                                        style={{ width: "80%" }}>
-                                    </div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">CSS</span>
-                                <div className="progress">
-                                    <div className="progress-bar css" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"  style={{ width: "65%" }} ></div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">JS</span>
-                                <div className="progress">
-                                    <div className="progress-bar js" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "60%" }} ></div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">REACT.js</span>
-                                <div className="progress">
-                                    <div className="progress-bar react" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "50%" }} ></div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">NODE.js</span>
-                                <div className="progress">
-                                    <div className="progress-bar node" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "60%" }} ></div>
-                                </div>
-
-
-                                <br></br>
-                                <span className="label">EXPRESS</span>
-                                <div className="progress">
-                                    <div className="progress-bar express" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "55%" }} ></div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">MongoDB</span>
-                                <div className="progress">
-                                    <div className="progress-bar mongo" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "65%" }} ></div>
-                                </div>
-
-                                <br></br>
-                                <span className="label">MySQL</span>
-                                <div className="progress">
-                                    <div className="progress-bar mysql" data-aos="fade-right"
-                                        data-aos-easing="ease-in-out"   data-aos-once="true"   style={{ width: "65%" }} ></div>
-                                </div>
-
-                            </div>
-
-                    
-                        </div>
-                    </div>
+              <div className="skills">
+                <div className="label">HTML</div>
+                <div className="progress">
+                  <div
+                    className="progress-bar html"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "90%" }}
+                  ></div>
                 </div>
-                <br></br><br></br><br></br>
-                <Footer />
 
-            </>
-        );
-    }
+                <br></br>
+                <span className="label">CSS</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar css"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+
+                <br></br>
+                <span className="label">JS</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar js"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+
+                <br></br>
+                <span className="label">REACT.js</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar react"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+
+                <br></br>
+                <span className="label">NODE.js</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar node"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+
+                <br></br>
+                <span className="label">EXPRESS</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar express"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "75%" }}
+                  ></div>
+                </div>
+
+                <br></br>
+                <span className="label">MongoDB</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar mongo"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+
+                <br></br>
+                <span className="label">MySQL</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar mysql"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Home;
