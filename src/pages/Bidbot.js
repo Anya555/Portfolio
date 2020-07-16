@@ -31,7 +31,7 @@ function Bidbot() {
               Online auctions have picked up and grown alongside the thriving
               digital world. They allow extreme convenience for bidders, as they
               don't have to leave their homes, but can instead just open up the
-              browser and find their desired items.{" "}
+              browser and find their desired items.
             </p>
           </div>
 

@@ -8,6 +8,7 @@ import Shopdesk from "./pages/Shopdesk";
 import Bidbot from "./pages/Bidbot";
 import WeatherDashboard from "./pages/WeatherDashboard";
 import ToDo from "./pages/ToDo";
+import Ecommerce from "./pages/Ecommerce";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/ToDo">
             <ToDo />
+          </Route>
+          <Route exact path="/E-commerce">
+            <Ecommerce />
           </Route>
         </Switch>
       </div>
