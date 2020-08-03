@@ -20,7 +20,7 @@ class Portfolio extends Component {
           id: 1,
           image: "/images/ecom.png",
           description: "Online shopping store",
-          address: "https://mighty-spire-39962.herokuapp.com/",
+          address: "https://powerful-beyond-85459.herokuapp.com/",
           link: "./E-commerce",
         },
 
@@ -40,13 +40,6 @@ class Portfolio extends Component {
         },
         {
           id: 4,
-          image: "/images/shopdesk.png",
-          description: "Ecommerce platform ",
-          address: "https://guarded-brook-11312.herokuapp.com/",
-          link: "./Shopdesk",
-        },
-        {
-          id: 5,
           image: "/images/weather.png",
           description: "Online weather forecast",
           address: "https://anya555.github.io/WeatherDashborad/",
