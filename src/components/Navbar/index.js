@@ -40,7 +40,7 @@ class Navbar extends Component {
             <FaLinkedinIn className="linkedin" />
           </a>
           <a
-            href="https://github.com/Anya555?tab=repositories"
+            href="https://github.com/Anya555"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,6 @@ class Navbar extends Component {
             className="mail"
             onClick={this.Copytext}
           >
-            {" "}
             annapanas0906@gmail.com
           </FiMail>
 

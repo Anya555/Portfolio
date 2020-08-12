@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./projects.css";
 
 const Ecommerce = () => {
   AOS.init({

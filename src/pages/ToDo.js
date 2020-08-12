@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./projects.css";
 
 function ToDo() {
   AOS.init({
@@ -18,8 +19,8 @@ function ToDo() {
       <div className="container">
         <br></br>
         <h6 className="projectInfo">
-          #Project built with React.js, React Bootstrap, Firebase:
-          Authentication, Database, Storage#
+          #React.js, React Bootstrap, Firebase: Authentication, Database,
+          Storage#
         </h6>
         <li className="min"> 3 min read</li>
         <br></br>

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./projects.css";
 
 function Weather() {
   AOS.init({
@@ -18,8 +19,7 @@ function Weather() {
       <div className="container">
         <br></br>
         <h6 className="projectInfo">
-          #School project built with jQuery, OppenWeatherMap API, HTML5
-          Geolocation API, localStorage#
+          #jQuery, OppenWeatherMap API, HTML5 Geolocation API, localStorage#
         </h6>
         <li className="min"> 3 min read</li>
         <br></br>

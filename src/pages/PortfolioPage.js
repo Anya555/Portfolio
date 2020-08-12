@@ -26,20 +26,28 @@ class Portfolio extends Component {
 
         {
           id: 2,
+          image: "/images/homeP.png",
+          description: "Coding forum",
+          address: "https://coding-forum.herokuapp.com/",
+          link: "./RubberDuck",
+        },
+
+        {
+          id: 3,
           image: "/images/bid.png",
           description: "Online auction",
           address: "https://bidbot-auction.herokuapp.com/",
           link: "./Bidbot",
         },
         {
-          id: 3,
+          id: 4,
           image: "/images/todo.png",
-          description: "To do list",
+          description: "To do list app",
           address: "https://nameless-beyond-06673.herokuapp.com/",
           link: "./ToDo",
         },
         {
-          id: 4,
+          id: 5,
           image: "/images/weather.png",
           description: "Online weather forecast",
           address: "https://anya555.github.io/WeatherDashborad/",
@@ -78,7 +86,7 @@ class Portfolio extends Component {
                 <p className="description"> {description} </p>
                 <br></br>
                 <Link to={link} className="learn">
-                  Learn more{" "}
+                  Learn more
                 </Link>
                 <br></br>
                 <br></br>

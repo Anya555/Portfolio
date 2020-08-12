@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaArrowRight } from "react-icons/fa";
+import "./projects.css";
 
 function Bidbot() {
   AOS.init({
@@ -17,9 +18,7 @@ function Bidbot() {
       <div className="container">
         <br></br>
         <br></br>
-        <h6 className="projectInfo">
-          #School group project built with MongoDB, Express, React.js, Node.js#
-        </h6>
+        <h6 className="projectInfo">#MongoDB, Express, React.js, Node.js#</h6>
         <li className="min"> 5 min read</li>
         <br></br>
         <br></br>
