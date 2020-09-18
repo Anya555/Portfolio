@@ -9,6 +9,7 @@ import WeatherDashboard from "./pages/WeatherDashboard";
 import ToDo from "./pages/ToDo";
 import Ecommerce from "./pages/Ecommerce";
 import RubberDuck from "./pages/RubberDuck";
+import JustBookIt from "./pages/JustBookIt";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route exact path="/RubberDuck">
             <RubberDuck />
+          </Route>
+          <Route exact path="/JustBookIt">
+            <JustBookIt />
           </Route>
         </Switch>
       </div>

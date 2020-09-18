@@ -19,7 +19,7 @@ class Portfolio extends Component {
         {
           id: 1,
           image: "/images/ecom.png",
-          description: "Online shopping store",
+          description: "Shopping store",
           address: "https://powerful-beyond-85459.herokuapp.com/",
           link: "./E-commerce",
         },
@@ -34,10 +34,10 @@ class Portfolio extends Component {
 
         {
           id: 3,
-          image: "/images/bid.png",
-          description: "Online auction",
-          address: "https://bidbot-auction.herokuapp.com/",
-          link: "./Bidbot",
+          image: "/images/homePG.png",
+          description: "Online appointment booking",
+          address: "https://angular-scheduler.herokuapp.com/",
+          link: "./JustBookIt",
         },
         {
           id: 4,
@@ -48,8 +48,15 @@ class Portfolio extends Component {
         },
         {
           id: 5,
+          image: "/images/bid.png",
+          description: "Online auction",
+          address: "https://bidbot-auction.herokuapp.com/",
+          link: "./Bidbot",
+        },
+        {
+          id: 6,
           image: "/images/weather.png",
-          description: "Online weather forecast",
+          description: "Weather forecast",
           address: "https://anya555.github.io/WeatherDashborad/",
           link: "./WeatherDashboard",
         },

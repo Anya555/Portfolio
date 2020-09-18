@@ -32,7 +32,7 @@ function Weather() {
             <br></br>
             <p>
               Weather Dashboard is an app that allows user to see current
-              weather and 5-day forecast at their location or for the city they
+              weather and 5-day forecast at their location or at the city they
               search for.
             </p>
           </div>
@@ -68,9 +68,8 @@ function Weather() {
             <br></br>
             <br></br>
             <p>
-              User's can search weather forecast for any city worldwide. Each
-              city gets added to their personal dynamically created list. User's
-              can also remove cities from the list.
+              User's can search weather forecast for any city worldwide. They
+              can add and remove cities from the list.
             </p>
           </div>
         </div>
