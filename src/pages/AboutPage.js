@@ -58,13 +58,11 @@ class Home extends React.Component {
               <br></br>
 
               <p>
-                {" "}
                 I'm a <span className="stack">full-stack</span> developer,
-                passionate about creating dynamic web applications. I love
-                turning idea on a piece of paper into a fully functional
-                website. While always aiming to write DRY clean code, I have
-                another passion for designing responsive applications with focus
-                on intuitive UI/UX.{" "}
+                located in Arlington, VA. I'm passionate about creating dynamic
+                web applications with intuitive UI. My favorite front-end
+                library is React.js. I enjoy a good challenge, learning and
+                gaining new skills.
               </p>
             </div>
 
@@ -91,19 +89,17 @@ class Home extends React.Component {
                 Graduate of <span className="stack"> MERN</span> stack Bootcamp
                 at George Washington University, where I learned how to develop
                 end-to-end web applications using modern coding tools and
-                libraries and delivering high quality code.{" "}
+                libraries and delivering high quality code.
               </p>
 
               <div className="mern">
                 <DiMongodb className="mongo-icn" />
                 <span className="express-icn"> express </span>
                 <span>
-                  {" "}
-                  <FaReact className="react-icn" />{" "}
+                  <FaReact className="react-icn" />
                 </span>
                 <span>
-                  {" "}
-                  <FaNodeJs className="node-icn" />{" "}
+                  <FaNodeJs className="node-icn" />
                 </span>
               </div>
             </div>
@@ -116,7 +112,7 @@ class Home extends React.Component {
               <br></br>
               <h1 className="h1">
                 my skills
-                <FaLongArrowAltDown className="arrow" />{" "}
+                <FaLongArrowAltDown className="arrow" />
               </h1>
               <br></br>
 
@@ -215,6 +211,17 @@ class Home extends React.Component {
                     data-aos-easing="ease-in-out"
                     data-aos-once="true"
                     style={{ width: "80%" }}
+                  ></div>
+                </div>
+                <br></br>
+                <span className="label">Angular</span>
+                <div className="progress">
+                  <div
+                    className="progress-bar angular"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    style={{ width: "50%" }}
                   ></div>
                 </div>
               </div>

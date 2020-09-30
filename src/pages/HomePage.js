@@ -21,7 +21,7 @@ function Home() {
             <br></br>
 
             <div className="row">
-              <div className="col-md-5 offset-sm-5 col-sm-12">
+              <div className="col-md-5 offset-sm-2 col-sm-12">
                 <h1 className="hello">Hello I'm Anna,</h1>
                 <br></br>
 
