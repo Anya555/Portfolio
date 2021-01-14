@@ -59,11 +59,9 @@ class Home extends React.Component {
 
               <p>
                 <span className="stack">Full-stack</span> developer, located in
-                Arlington, VA. Highly motivated by true love to programming and
-                passionate about creating dynamic web applications. It gives me
-                a chance to create and learn every day. I wish to build
-                solutions to real problems. I wish to make a difference through
-                a power of code.
+                Arlington, VA. Coding is my true passion. It gives me a chance
+                to create and learn every day. I aim to build solutions to real
+                problems. I aim to make a difference through a power of code.
               </p>
             </div>
 
