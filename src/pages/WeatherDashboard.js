@@ -26,18 +26,19 @@ function Weather() {
         <br></br>
 
         <div className="row">
-          <div className="col-md-5 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <br></br>
-            <br></br>
-            <br></br>
+
             <p>
-              Weather Dashboard is an app that allows user to see current
-              weather and 5-day forecast at their location or at the city they
-              search for.
+              Weather Dashboard is a weather forecast app that allows user to
+              see current weather and 5-day forecast at their own location or
+              any city they search for. By default Weather Dashboard will
+              display a weather at user's location. Users will have to grant
+              access to their location when using app for the first time.
             </p>
           </div>
 
-          <div className="col-md-6 offset-sm-1 col-sm-12">
+          <div className="col-md-7 offset-sm-1 col-sm-12">
             <div className="card" data-aos="fade-left" data-aos-once="true">
               <img
                 src="/images/location.png"
@@ -54,7 +55,7 @@ function Weather() {
         <br></br>
 
         <div className="row">
-          <div className="col-md-6  col-sm-12">
+          <div className="col-md-7  col-sm-12">
             <div className="card" data-aos="flip-down" data-aos-once="true">
               <img
                 src="/images/weather.png"
@@ -64,12 +65,15 @@ function Weather() {
               />
             </div>
           </div>
-          <div className="col-md-5 offset-sm-1 col-sm-12">
+          <div className="col-md-5  col-sm-12">
             <br></br>
             <br></br>
             <p>
-              User's can search weather forecast for any city worldwide. They
-              can add and remove cities from the list.
+              User's can search weather forecast for any city worldwide. Every
+              searched city is being added to user's list for convenience, so
+              users don't have to search for it every time. If they no longer
+              wish to know weather forecast at certain stored city in they can
+              simply remove it from the list.
             </p>
           </div>
         </div>
@@ -79,18 +83,18 @@ function Weather() {
         <br></br>
 
         <div className="row">
-          <div className="col-md-5 offset-sm-1 col-sm-12">
+          <div className="col-md-4 offset-sm-2 col-sm-12">
             <br></br>
             <br></br>
             <br></br>
             <p data-aos="zoom-out-down" data-aos-once="true">
-              By default weather is shown in Farenheit units, but users can also
-              convert the weather into celcius or back to farenheits by simply
-              clicking "°C" or "°F" buttons on a navbar.
+              By default the weather forecast is displayed in Fahrenheit units,
+              but users can also convert the weather into Celsius or back to
+              Fahrenheit by simply clicking "°C" or "°F" buttons on a navbar.
             </p>
           </div>
 
-          <div className="col-md-3 offset-sm-1 col-sm-12">
+          <div className="col-md-5 offset-sm-1 col-sm-12">
             <img
               src="/images/cels.png"
               width="220px"

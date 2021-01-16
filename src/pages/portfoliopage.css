@@ -1,5 +1,5 @@
 .portfolio-pic {
-  height: 180px;
+  height: 250px;
   width: 100%;
   padding-bottom: 10px;
   border-bottom: black;
@@ -83,7 +83,7 @@ a:hover {
 }
 
 .img-container:hover {
-  height: 180px;
+  height: 250px;
 }
 
 .portfolio-card {

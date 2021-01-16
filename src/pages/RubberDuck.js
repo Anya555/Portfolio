@@ -24,20 +24,18 @@ const RubberDuck = () => {
         <br></br>
 
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <p>
-              <br></br>
-              <br></br>
               Getting stuck in a programming problem is a very common thing. For
               example, when you are learning to code or a new programming
               language or face a new problem, you have never solved before.
-              Rubber Duck is a coding forum for programmers, where they can post
-              issues they're having with code and get help from other
-              developers.
+              Rubber Duck is a coding forum for programmers, where they can
+              search to for similar issues they're experiencing in their code or
+              post the issue itself and get help from other developers.
             </p>
             <br></br>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-7 offset-sm-1 col-sm-12">
             <div className="card" data-aos="fade-left" data-aos-once="true">
               <img
                 src="/images/askQ.png"
@@ -53,7 +51,7 @@ const RubberDuck = () => {
         <br></br>
         <br></br>
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-7 col-sm-12">
             <div className="card" data-aos="fade-up" data-aos-once="true">
               <img
                 src="/images/question.png"
@@ -63,7 +61,7 @@ const RubberDuck = () => {
               />
             </div>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-4  col-sm-12">
             <p>
               <br></br>
               <br></br>

@@ -24,20 +24,21 @@ const justBookIt = () => {
         <br></br>
         <div className="row">
           <div
-            className="col-md-5 col-sm-12"
+            className="col-md-4 col-sm-12"
             data-aos="fade-right"
             data-aos-once="true"
           >
-            <br></br> <br></br>
+            <br></br>
             <p>
-              'Just Book It' is an online booking tool, that let's user simply
-              make an appointment online. It's designed for standard business
-              operation hours: Monday-Friday 9am - 5pm. All available dates are
-              shown in black color and disabled dates in grey color.
+              'Just Book It' is an appointment booking software. It's a great
+              solution for businesses to automate their planning and management.
+              It's designed for standard business operation hours: Monday-Friday
+              9am - 5pm but can be modified to individual needs. All available
+              dates are shown in black color and disabled dates in grey color.
             </p>
           </div>
 
-          <div className="col-md-6 offset-sm-1 col-sm-12">
+          <div className="col-md-7 offset-sm-1 col-sm-12">
             <div className="card">
               <img
                 src="/images/calendar.png"
@@ -52,14 +53,14 @@ const justBookIt = () => {
         <br></br>
         <br></br>
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-7 col-sm-12">
             <p>
-              When users submit a form, they receive confirmation email with
-              details about appointment.
+              Instantly receive confirmation email with details about
+              appointment when form is submitted.
             </p>
             <div className="card">
               <img
-                src="/images/emailConfirmation.png"
+                src="/images/email.png"
                 width="100%"
                 height="300px"
                 alt="todoList"
@@ -67,21 +68,19 @@ const justBookIt = () => {
             </div>
           </div>
           <div
-            className="col-md-6 col-sm-12"
+            className="col-md-5 col-sm-12"
             data-aos="fade-up"
             data-aos-once="true"
           >
-            <br></br>
             <img
-              src="/images/cancelApp.png"
+              src="/images/bookItCancel.png"
               width="100%"
               height="300px"
               alt="todoList"
             />
 
             <p>
-              To cancel appointment, they can simply follow a link included in
-              email.
+              To cancel appointment, simply follow a link included in the email.
             </p>
           </div>
         </div>
@@ -89,16 +88,17 @@ const justBookIt = () => {
         <br></br>
         <div className="row">
           <div
-            className="col-md-5 col-sm-12"
+            className="col-md-4 offset-sm-1 col-sm-12"
             data-aos="fade-right"
             data-aos-once="true"
           >
             <p>
-              Admin can login to admin dashboard, where he/she can manage all
-              appointments. All data is restricted for admin use only.
+              Appointments management is very easy through admin dashboard that
+              is strictly design for admin use only. All data is secured and
+              stored in cloud.
             </p>
             <img
-              src="/images/adminlogin.png"
+              src="/images/bookItLogin.png"
               width="100%"
               height="300px"
               alt="todoList"
@@ -111,15 +111,15 @@ const justBookIt = () => {
           >
             <br></br>
             <img
-              src="/images/adminDashB.png"
+              src="/images/bookItTable.png"
               width="100%"
               height="300px"
               alt="todoList"
             />
 
             <p>
-              Search engine is also implemented for admin to be able to easily
-              find an appointment and delete if needed.
+              Search engine is also implemented for admin to easily find an
+              appointment and delete if needed.
             </p>
           </div>
         </div>

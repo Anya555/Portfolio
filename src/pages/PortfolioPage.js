@@ -34,8 +34,8 @@ class Portfolio extends Component {
 
         {
           id: 3,
-          image: "/images/homePG.png",
-          description: "Online appointment booking",
+          image: "/images/bookItHome.png",
+          description: "Appointment booking software",
           address: "https://angular-scheduler.herokuapp.com/",
           link: "./JustBookIt",
         },
@@ -50,7 +50,7 @@ class Portfolio extends Component {
           id: 5,
           image: "/images/bid.png",
           description: "Online auction",
-          address: "https://bidbot-auction.herokuapp.com/",
+          address: "http://157.245.135.192/",
           link: "./Bidbot",
         },
         {
@@ -70,7 +70,7 @@ class Portfolio extends Component {
 
       return (
         <>
-          <div className="col-md-4 col-sm-12">
+          <div className="col-md-6 col-sm-12">
             <div className="card portfolio-card" key={id} data-aos="fade-up">
               <div className="img-container">
                 <img src={image} className="portfolio-pic" alt="project" />
@@ -118,7 +118,6 @@ class Portfolio extends Component {
         <br></br>
         <br></br>
         <h2 className="projects">PROJECTS</h2>
-        <br></br>
         <br></br>
         <br></br>
         <div className="container">
