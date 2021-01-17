@@ -11,7 +11,7 @@ import Ecommerce from "./pages/Ecommerce";
 import RubberDuck from "./pages/RubberDuck";
 import JustBookIt from "./pages/JustBookIt";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div>
@@ -50,6 +50,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

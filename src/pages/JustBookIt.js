@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 // react-bootstrap
 import Navbar from "../components/Navbar/index";
 import Footer from "../components/Footer/index";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./projects.css";
-const justBookIt = () => {
+
+const JustBookIt = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   AOS.init({
     duration: 1200,
   });
+
   return (
     <>
       <Navbar />
@@ -140,4 +146,4 @@ const justBookIt = () => {
     </>
   );
 };
-export default justBookIt;
+export default JustBookIt;

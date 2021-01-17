@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar/index";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -66,6 +66,6 @@ function Home() {
       <Footer />
     </>
   );
-}
+};
 
 export default Home;

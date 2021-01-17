@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // react-bootstrap
 import Navbar from "../components/Navbar/index";
@@ -7,7 +7,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./projects.css";
 
-function ToDo() {
+const ToDo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   AOS.init({
     duration: 1200,
   });
@@ -146,5 +150,5 @@ function ToDo() {
       <Footer />
     </>
   );
-}
+};
 export default ToDo;
